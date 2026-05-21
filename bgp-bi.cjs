@@ -286,7 +286,7 @@ async function cmdPublish() {
   info(`Trigger Coolify deploy (${uuid})`);
   try {
     const out = execSync(
-      `curl -s -H "Authorization: Bearer ${COOLIFY_TOKEN}" "http://${COOLIFY_HOST}/api/v1/deploy?uuid=${uuid}&force=false"`,
+      `curl -s -H "Authorization: Bearer ${COOLIFY_TOKEN}" "https://${COOLIFY_HOST}/api/v1/deploy?uuid=${uuid}&force=false"`,
       { encoding: 'utf8' }
     );
     const j = JSON.parse(out);
@@ -299,7 +299,7 @@ async function cmdPublish() {
     while (Date.now() - start < 180000) {
       await new Promise(r => setTimeout(r, 8000));
       const dOut = execSync(
-        `curl -s -H "Authorization: Bearer ${COOLIFY_TOKEN}" "http://${COOLIFY_HOST}/api/v1/deployments/applications/${uuid}"`,
+        `curl -s -H "Authorization: Bearer ${COOLIFY_TOKEN}" "https://${COOLIFY_HOST}/api/v1/deployments/applications/${uuid}"`,
         { encoding: 'utf8' }
       );
       const dJ = JSON.parse(dOut);
