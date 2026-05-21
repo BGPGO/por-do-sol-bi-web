@@ -19,10 +19,12 @@ COPY styles.css /usr/share/nginx/html/
 COPY data.js /usr/share/nginx/html/
 COPY app.bundle.js /usr/share/nginx/html/
 
-# Opcionais (placeholder vazio criado por bgp-bi.cjs init)
+# Opcionais
 COPY data-extras.js /usr/share/nginx/html/
-COPY saldos.json /usr/share/nginx/html/
 COPY assets /usr/share/nginx/html/assets
+
+# Reports IA pré-gerados
+COPY report*.json /usr/share/nginx/html/
 
 # Config nginx
 COPY nginx.conf /etc/nginx/conf.d/default.conf
