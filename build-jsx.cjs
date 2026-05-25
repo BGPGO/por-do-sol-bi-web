@@ -112,7 +112,203 @@ const PAGE_MODE_INJECT = `\n// Injetado por build-jsx.cjs a partir de bi.config.
         document.body.classList.add('bi-print-mode');
         setPrintPages(pages);
       };
-      return function () { window.startBiExport = null; };
+      window.startBiExcelExport = function (pages, sf, dd, yr, mo, regime, filters) {
+        if (typeof XLSX === 'undefined') { alert('Biblioteca XLSX não carregada.'); return; }
+        var B = window.getBit(sf, dd, yr, mo, regime, filters);
+        var BFull = window.getBit(sf, null, yr, 0, regime, filters);
+        var wb = XLSX.utils.book_new();
+        var fmt = function (v) { return typeof v === 'number' ? Math.round(v * 100) / 100 : (v || ''); };
+        var pctF = function (v) { return typeof v === 'number' ? (Math.round(v * 10000) / 100) + '%' : ''; };
+        var meses = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+
+        pages.forEach(function (pid) {
+          if (pid === 'overview') {
+            var rows = [['Indicador', 'Valor']];
+            rows.push(['Receita Total', fmt(B.TOTAL_RECEITA)]);
+            rows.push(['Despesa Total', fmt(B.TOTAL_DESPESA)]);
+            rows.push(['Valor Líquido', fmt(B.VALOR_LIQUIDO)]);
+            rows.push(['Margem Líquida', pctF(B.MARGEM_LIQUIDA)]);
+            rows.push([]);
+            rows.push(['Mês', 'Receita', 'Despesa', 'Líquido']);
+            (B.MONTH_DATA || []).forEach(function (m) {
+              rows.push([m.m, fmt(m.receita), fmt(m.despesa), fmt(m.receita - m.despesa)]);
+            });
+            var ws = XLSX.utils.aoa_to_sheet(rows);
+            ws['!cols'] = [{wch:18},{wch:16},{wch:16},{wch:16}];
+            XLSX.utils.book_append_sheet(wb, ws, '01 Visao Geral');
+          }
+          if (pid === 'receita') {
+            var rows = [['Mês', 'Receita']];
+            (B.MONTH_DATA || []).forEach(function (m) { rows.push([m.m, fmt(m.receita)]); });
+            rows.push([]); rows.push(['Categoria', 'Valor']);
+            (BFull.RECEITA_CATEGORIAS || []).forEach(function (c) { rows.push([c.name, fmt(c.value)]); });
+            rows.push([]); rows.push(['Cliente', 'Valor']);
+            (BFull.RECEITA_CLIENTES || []).forEach(function (c) { rows.push([c.name, fmt(c.value)]); });
+            rows.push([]); rows.push(['Data', 'Categoria', 'Cliente', 'Valor']);
+            var ext = (B.EXTRATO || []).filter(function (e) { return e[4] > 0; });
+            ext.forEach(function (e) { rows.push([e[0], e[2], e[3], fmt(e[4])]); });
+            var ws = XLSX.utils.aoa_to_sheet(rows);
+            ws['!cols'] = [{wch:14},{wch:30},{wch:30},{wch:16}];
+            XLSX.utils.book_append_sheet(wb, ws, '02 Receita');
+          }
+          if (pid === 'despesa') {
+            var rows = [['Mês', 'Despesa']];
+            (B.MONTH_DATA || []).forEach(function (m) { rows.push([m.m, fmt(m.despesa)]); });
+            rows.push([]); rows.push(['Categoria', 'Valor']);
+            (BFull.DESPESA_CATEGORIAS || []).forEach(function (c) { rows.push([c.name, fmt(c.value)]); });
+            rows.push([]); rows.push(['Fornecedor', 'Valor']);
+            (BFull.DESPESA_FORNECEDORES || []).forEach(function (c) { rows.push([c.name, fmt(c.value)]); });
+            rows.push([]); rows.push(['Data', 'Categoria', 'Fornecedor', 'Valor']);
+            var ext = (B.EXTRATO || []).filter(function (e) { return e[4] < 0; });
+            ext.forEach(function (e) { rows.push([e[0], e[2], e[3], fmt(Math.abs(e[4]))]); });
+            var ws = XLSX.utils.aoa_to_sheet(rows);
+            ws['!cols'] = [{wch:14},{wch:30},{wch:30},{wch:16}];
+            XLSX.utils.book_append_sheet(wb, ws, '03 Despesa');
+          }
+          if (pid === 'fluxo') {
+            var tx = window.ALL_TX || [];
+            var rg = (regime === 'competencia') ? 'k' : 'c';
+            var filtered = tx.filter(function(r) { return r[9] === rg; });
+            if (sf === 'realizado') filtered = filtered.filter(function(r) { return r[6] === 1; });
+            else if (sf === 'a_pagar_receber') filtered = filtered.filter(function(r) { return r[6] === 0; });
+            if (filters) filtered = window.filterTx(tx, sf, dd, regime || 'caixa', filters);
+            var y = yr || window.REF_YEAR;
+            filtered = filtered.filter(function(r) { return r[1] && r[1].slice(0,4) === String(y); });
+            var recCats = {}; var despCats = {};
+            filtered.forEach(function(r) {
+              var cat = r[3] || 'Sem categoria';
+              var mesIdx = parseInt(r[1].slice(5,7), 10) - 1;
+              if (mesIdx < 0 || mesIdx > 11) return;
+              if (r[0] === 'r') {
+                if (!recCats[cat]) recCats[cat] = [0,0,0,0,0,0,0,0,0,0,0,0];
+                recCats[cat][mesIdx] += r[5];
+              } else {
+                if (!despCats[cat]) despCats[cat] = [0,0,0,0,0,0,0,0,0,0,0,0];
+                despCats[cat][mesIdx] += Math.abs(r[5]);
+              }
+            });
+            var header = ['Categoria'].concat(meses).concat(['Total']);
+            var rows = [header];
+            rows.push(['=== RECEITAS ===']);
+            var recTotal = [0,0,0,0,0,0,0,0,0,0,0,0];
+            Object.keys(recCats).sort().forEach(function(cat) {
+              var v = recCats[cat]; var t = v.reduce(function(a,b){return a+b;},0);
+              var row = [cat]; v.forEach(function(x,i){ row.push(fmt(x)); recTotal[i]+=x; }); row.push(fmt(t));
+              rows.push(row);
+            });
+            var rt = recTotal.reduce(function(a,b){return a+b;},0);
+            rows.push(['Total Receita'].concat(recTotal.map(fmt)).concat([fmt(rt)]));
+            rows.push([]);
+            rows.push(['=== DESPESAS ===']);
+            var despTotal = [0,0,0,0,0,0,0,0,0,0,0,0];
+            Object.keys(despCats).sort().forEach(function(cat) {
+              var v = despCats[cat]; var t = v.reduce(function(a,b){return a+b;},0);
+              var row = [cat]; v.forEach(function(x,i){ row.push(fmt(x)); despTotal[i]+=x; }); row.push(fmt(t));
+              rows.push(row);
+            });
+            var dt = despTotal.reduce(function(a,b){return a+b;},0);
+            rows.push(['Total Despesa'].concat(despTotal.map(fmt)).concat([fmt(dt)]));
+            rows.push([]);
+            var liqRow = ['Líquido'];
+            for (var i=0;i<12;i++) liqRow.push(fmt(recTotal[i]-despTotal[i]));
+            liqRow.push(fmt(rt-dt));
+            rows.push(liqRow);
+            var ws = XLSX.utils.aoa_to_sheet(rows);
+            ws['!cols'] = [{wch:35}];
+            for(var j=1;j<=13;j++) ws['!cols'].push({wch:14});
+            XLSX.utils.book_append_sheet(wb, ws, '04 Fluxo de Caixa');
+          }
+          if (pid === 'tesouraria') {
+            var BReal = window.getBit('realizado', dd, yr, mo, regime, filters);
+            var BPend = window.getBit('a_pagar_receber', dd, yr, mo, regime, filters);
+            var rows = [['Indicador', 'Valor']];
+            rows.push(['Recebido', fmt(BReal.TOTAL_RECEITA)]);
+            rows.push(['A Receber', fmt(BPend.TOTAL_RECEITA)]);
+            rows.push(['Pago', fmt(BReal.TOTAL_DESPESA)]);
+            rows.push(['A Pagar', fmt(BPend.TOTAL_DESPESA)]);
+            rows.push([]);
+            rows.push(['Dia', 'Receita', 'Despesa']);
+            var recDia = BReal.RECEITA_DIA || [];
+            var despDia = BReal.DESPESA_DIA || [];
+            for (var i = 0; i < 31; i++) {
+              if ((recDia[i] || 0) > 0 || (despDia[i] || 0) > 0)
+                rows.push([i + 1, fmt(recDia[i] || 0), fmt(despDia[i] || 0)]);
+            }
+            rows.push([]);
+            rows.push(['Mês', 'Saldo']);
+            (BReal.SALDOS_MES || []).forEach(function (s, i) { rows.push([meses[i], fmt(s)]); });
+            var ws = XLSX.utils.aoa_to_sheet(rows);
+            ws['!cols'] = [{wch:14},{wch:16},{wch:16}];
+            XLSX.utils.book_append_sheet(wb, ws, '05 Tesouraria');
+          }
+          if (pid === 'comparativo') {
+            var rows = [['Comparativo']];
+            rows.push(['Indicador', 'Valor']);
+            rows.push(['Receita', fmt(B.TOTAL_RECEITA)]);
+            rows.push(['Despesa', fmt(B.TOTAL_DESPESA)]);
+            rows.push(['Líquido', fmt(B.VALOR_LIQUIDO)]);
+            rows.push([]);
+            rows.push(['Mês', 'Receita', 'Despesa', 'Líquido']);
+            (B.MONTH_DATA || []).forEach(function (m) {
+              rows.push([m.m, fmt(m.receita), fmt(m.despesa), fmt(m.receita - m.despesa)]);
+            });
+            var ws = XLSX.utils.aoa_to_sheet(rows);
+            ws['!cols'] = [{wch:18},{wch:16},{wch:16},{wch:16}];
+            XLSX.utils.book_append_sheet(wb, ws, '06 Comparativo');
+          }
+          if (pid === 'dre') {
+            var tx = window.ALL_TX || [];
+            var rg = (regime === 'competencia') ? 'k' : 'c';
+            var filtered = filters ? window.filterTx(tx, sf, dd, regime || 'caixa', filters) : tx.filter(function(r){return r[9]===rg;});
+            var y = yr || window.REF_YEAR;
+            filtered = filtered.filter(function(r) { return r[1] && r[1].slice(0,4) === String(y); });
+            var catMonth = {};
+            filtered.forEach(function(r) {
+              var cat = r[3] || 'Sem categoria';
+              var mi = parseInt(r[1].slice(5,7),10)-1;
+              if (mi<0||mi>11) return;
+              if (!catMonth[cat]) catMonth[cat] = [0,0,0,0,0,0,0,0,0,0,0,0];
+              catMonth[cat][mi] += r[5];
+            });
+            var header = ['Conta'].concat(meses).concat(['Total']);
+            var rows = [header];
+            Object.keys(catMonth).sort().forEach(function(cat) {
+              var v = catMonth[cat]; var t = v.reduce(function(a,b){return a+b;},0);
+              rows.push([cat].concat(v.map(fmt)).concat([fmt(t)]));
+            });
+            var ws = XLSX.utils.aoa_to_sheet(rows);
+            ws['!cols'] = [{wch:35}];
+            for(var j=1;j<=13;j++) ws['!cols'].push({wch:14});
+            XLSX.utils.book_append_sheet(wb, ws, '18 DRE');
+          }
+          if (pid === 'orcamento' && window.BIT_ORCAMENTO) {
+            var rows = [['Categoria', 'Orçado', 'Realizado', 'Saldo', '% Consumido']];
+            var catMap = {};
+            window.BIT_ORCAMENTO.forEach(function(r) {
+              var cat = r.conta || 'Sem conta';
+              if (!catMap[cat]) catMap[cat] = { orcado: 0, realizado: 0 };
+              catMap[cat].orcado += r.orcamento || 0;
+              catMap[cat].realizado += r.realizado || 0;
+            });
+            Object.keys(catMap).sort().forEach(function(cat) {
+              var c = catMap[cat]; var saldo = c.orcado - c.realizado;
+              var pct = c.orcado ? (c.realizado / c.orcado) : 0;
+              rows.push([cat, fmt(c.orcado), fmt(c.realizado), fmt(saldo), pctF(pct)]);
+            });
+            var ws = XLSX.utils.aoa_to_sheet(rows);
+            ws['!cols'] = [{wch:35},{wch:16},{wch:16},{wch:16},{wch:14}];
+            XLSX.utils.book_append_sheet(wb, ws, '17 Orcamento');
+          }
+        });
+
+        if (wb.SheetNames.length === 0) {
+          var ws = XLSX.utils.aoa_to_sheet([['Nenhuma tela selecionada com dados disponíveis']]);
+          XLSX.utils.book_append_sheet(wb, ws, 'Vazio');
+        }
+        var nome = (window.BIT && window.BIT.META && window.BIT.META.EMPRESA) || 'BI';
+        XLSX.writeFile(wb, nome + '_BI_Export.xlsx');
+      };
+      return function () { window.startBiExport = null; window.startBiExcelExport = null; };
     }, []);
     useEffect(function () {
       if (!printPages) return;

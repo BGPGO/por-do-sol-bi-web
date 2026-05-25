@@ -210,7 +210,7 @@ const BI_EXPORT_PAGES = [
   { id: "dre", label: "18 DRE" },
 ];
 
-const BiExportButton = () => {
+const BiExportButton = ({ statusFilter, year, month, filters }) => {
   const [open, setOpen] = useState(false);
   const visiblePages = BI_EXPORT_PAGES.filter(p => {
     const mode = window.BI_PAGE_MODE && window.BI_PAGE_MODE[p.id];
@@ -224,23 +224,31 @@ const BiExportButton = () => {
       return ns;
     });
   };
-  const submit = () => {
+  const submitPdf = () => {
     if (selected.size === 0) return;
     const ordered = visiblePages.filter(p => selected.has(p.id)).map(p => p.id);
     if (window.startBiExport) window.startBiExport(ordered);
     setOpen(false);
   };
+  const submitExcel = () => {
+    if (selected.size === 0) return;
+    const ordered = visiblePages.filter(p => selected.has(p.id)).map(p => p.id);
+    var sf = statusFilter || window.BIT_FILTER || 'realizado';
+    var rg = (filters && filters.regime) || 'caixa';
+    if (window.startBiExcelExport) window.startBiExcelExport(ordered, sf, null, year, month, rg, filters);
+    setOpen(false);
+  };
   return (
     <>
-      <button className="btn-ghost hd-export-bi" onClick={() => setOpen(true)} title="Exportar BI inteiro como PDF">
+      <button className="btn-ghost hd-export-bi" onClick={() => setOpen(true)} title="Exportar BI">
         <Icon name="download" /> <span>Exportar BI</span>
       </button>
       {open && (
         <div className="drawer-overlay no-print" onClick={() => setOpen(false)}>
           <div className="card bi-export-modal" onClick={e => e.stopPropagation()}>
-            <h2 className="card-title">Exportar BI como PDF</h2>
+            <h2 className="card-title">Exportar BI</h2>
             <p style={{ color: "var(--fg-2)", marginTop: 8, fontSize: 13 }}>
-              Selecione as telas para incluir no PDF. Cada tela vira uma página A4 com o tema escuro mantido.
+              Selecione as telas e o formato de exportação.
             </p>
             <div className="bi-export-grid">
               {visiblePages.map(p => (
@@ -261,8 +269,11 @@ const BiExportButton = () => {
               </div>
               <div style={{ display: "flex", gap: 8 }}>
                 <button className="btn-ghost" onClick={() => setOpen(false)}>Cancelar</button>
-                <button className="btn-primary" onClick={submit} disabled={selected.size === 0}>
-                  Exportar ({selected.size})
+                <button className="btn-primary" onClick={submitPdf} disabled={selected.size === 0}>
+                  PDF ({selected.size})
+                </button>
+                <button className="btn-primary" onClick={submitExcel} disabled={selected.size === 0} style={{ background: "var(--green, #22c55e)" }}>
+                  Excel ({selected.size})
                 </button>
               </div>
             </div>
@@ -283,8 +294,8 @@ const Header = ({ page, onToggleSidebar, statusFilter, setStatusFilter, year, se
     return ["Todas categorias", ...Array.from(cats).sort()];
   }, [filters && filters.regime]);
   const dias = useMemo(() => {
-    var d = [{ v: 0, l: "Todos os dias" }];
-    for (var i = 1; i <= 31; i++) d.push({ v: i, l: "Dia " + i });
+    var d = [{ v: 0, l: "Todos" }];
+    for (var i = 1; i <= 31; i++) d.push({ v: i, l: "" + i });
     return d;
   }, []);
   const updateFilter = (patch) => setFilters && setFilters(Object.assign({}, filters, patch));
@@ -304,7 +315,12 @@ const Header = ({ page, onToggleSidebar, statusFilter, setStatusFilter, year, se
         <input type="date" className="header-year" value={(filters && filters.dateFrom) || ""} onChange={e => updateFilter({ dateFrom: e.target.value })} style={{ width: 130, fontSize: 12 }} />
         <label style={{ fontSize: 10, color: "var(--mute)", textTransform: "uppercase", letterSpacing: "0.05em" }}>Até</label>
         <input type="date" className="header-year" value={(filters && filters.dateTo) || ""} onChange={e => updateFilter({ dateTo: e.target.value })} style={{ width: 130, fontSize: 12 }} />
-        <select className="header-year" value={(filters && filters.dia) || 0} onChange={e => updateFilter({ dia: Number(e.target.value) })} title="Filtrar por dia" style={{ width: 110, fontSize: 12 }}>
+        <label style={{ fontSize: 10, color: "var(--mute)", textTransform: "uppercase", letterSpacing: "0.05em" }}>Dia de</label>
+        <select className="header-year" value={(filters && filters.diaFrom) || 0} onChange={e => updateFilter({ diaFrom: Number(e.target.value) })} title="Dia inicial" style={{ width: 90, fontSize: 12 }}>
+          {dias.map(d => <option key={d.v} value={d.v}>{d.l}</option>)}
+        </select>
+        <label style={{ fontSize: 10, color: "var(--mute)", textTransform: "uppercase", letterSpacing: "0.05em" }}>até</label>
+        <select className="header-year" value={(filters && filters.diaTo) || 0} onChange={e => updateFilter({ diaTo: Number(e.target.value) })} title="Dia final" style={{ width: 90, fontSize: 12 }}>
           {dias.map(d => <option key={d.v} value={d.v}>{d.l}</option>)}
         </select>
         <select className="header-year" value={(filters && filters.categoria) || "Todas categorias"} onChange={e => updateFilter({ categoria: e.target.value })} title="Filtrar por categoria" style={{ maxWidth: 200, fontSize: 12 }}>
@@ -312,7 +328,7 @@ const Header = ({ page, onToggleSidebar, statusFilter, setStatusFilter, year, se
         </select>
       </div>
       {setStatusFilter && <StatusFilterSeg value={statusFilter} onChange={setStatusFilter} />}
-      <BiExportButton />
+      <BiExportButton statusFilter={statusFilter} year={year} month={month} filters={filters} />
     </header>
   );
 };
@@ -748,7 +764,8 @@ const DEFAULT_FILTERS = {
   cc: "Todos centros de custo",
   dateFrom: "",
   dateTo: "",
-  dia: 0,
+  diaFrom: 0,
+  diaTo: 0,
 };
 
 const countActiveFilters = (f) => {

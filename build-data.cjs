@@ -781,8 +781,11 @@ function filterTx(allTx, statusFilter, drilldown, regime, extraFilters) {
     if (extraFilters.categoria && extraFilters.categoria !== "Todas categorias") {
       out = out.filter(function(r) { return r[3] === extraFilters.categoria; });
     }
-    if (extraFilters.dia && extraFilters.dia > 0) {
-      out = out.filter(function(r) { return r[2] === extraFilters.dia; });
+    if (extraFilters.diaFrom && extraFilters.diaFrom > 0) {
+      out = out.filter(function(r) { return r[2] >= extraFilters.diaFrom; });
+    }
+    if (extraFilters.diaTo && extraFilters.diaTo > 0) {
+      out = out.filter(function(r) { return r[2] <= extraFilters.diaTo; });
     }
   }
   return out;

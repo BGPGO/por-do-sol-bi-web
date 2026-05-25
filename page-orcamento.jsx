@@ -224,54 +224,33 @@ const PageOrcamento = ({ filters, setFilters, statusFilter, drilldown, setDrilld
 
   // ===== VIEW 3: Análise Tabelas =====
   const viewTabelas = () => {
+    const totalDif = agg.totalOrcado - agg.totalRealizado;
     return (
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
-        <div className="card">
-          <h2 className="card-title">DESPESA <span style={{ color: "var(--red)" }}>ORÇADA</span></h2>
-          <div className="t-scroll" style={{ maxHeight: 600 }}>
-            <table className="t">
-              <thead>
-                <tr><th>Categoria</th><th className="num">Soma de Previsto</th></tr>
-              </thead>
-              <tbody>
-                {agg.cats.map((c, i) => (
-                  <tr key={i} style={{ cursor: "pointer", opacity: selectedCat && selectedCat !== c.name ? 0.4 : 1 }}
-                    onClick={() => handleCatClick(c.name)}>
-                    <td style={{ fontSize: 12 }}>{c.name}</td>
-                    <td className="num green" style={{ fontSize: 12 }}>{fmt(c.orcado)}</td>
-                  </tr>
-                ))}
-                <tr className="total">
-                  <td>Orçado</td>
-                  <td className="num green">{fmt(agg.totalOrcado)}</td>
+      <div className="card">
+        <h2 className="card-title">ORÇADO × REALIZADO</h2>
+        <div className="t-scroll" style={{ maxHeight: 600 }}>
+          <table className="t">
+            <thead>
+              <tr><th>Categoria</th><th className="num">Orçado</th><th className="num">Realizado</th><th className="num">Diferença</th></tr>
+            </thead>
+            <tbody>
+              {agg.cats.map((c, i) => (
+                <tr key={i} style={{ cursor: "pointer", opacity: selectedCat && selectedCat !== c.name ? 0.4 : 1 }}
+                  onClick={() => handleCatClick(c.name)}>
+                  <td style={{ fontSize: 12 }}>{c.name}</td>
+                  <td className="num" style={{ fontSize: 12, color: "#60a5fa" }}>{fmt(c.orcado)}</td>
+                  <td className="num" style={{ fontSize: 12, color: c.realizado > c.orcado ? "var(--red)" : "var(--green)" }}>{fmt(c.realizado)}</td>
+                  <td className="num" style={{ fontSize: 12, color: c.saldo >= 0 ? "var(--green)" : "var(--red)" }}>{fmt(c.saldo)}</td>
                 </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <div className="card">
-          <h2 className="card-title">DESPESA <span style={{ color: "var(--red)" }}>REALIZADA</span></h2>
-          <div className="t-scroll" style={{ maxHeight: 600 }}>
-            <table className="t">
-              <thead>
-                <tr><th>Categoria</th><th className="num">Soma de Realizado</th></tr>
-              </thead>
-              <tbody>
-                {agg.cats.map((c, i) => (
-                  <tr key={i} style={{ cursor: "pointer", opacity: selectedCat && selectedCat !== c.name ? 0.4 : 1 }}
-                    onClick={() => handleCatClick(c.name)}>
-                    <td style={{ fontSize: 12 }}>{c.name}</td>
-                    <td className="num" style={{ fontSize: 12, color: c.realizado > c.orcado ? "var(--red)" : "var(--green)" }}>{fmt(c.realizado)}</td>
-                  </tr>
-                ))}
-                <tr className="total">
-                  <td>Realizado</td>
-                  <td className="num" style={{ color: agg.totalRealizado > agg.totalOrcado ? "var(--red)" : "var(--green)" }}>{fmt(agg.totalRealizado)}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+              ))}
+              <tr className="total">
+                <td>Total</td>
+                <td className="num" style={{ color: "#60a5fa" }}>{fmt(agg.totalOrcado)}</td>
+                <td className="num" style={{ color: agg.totalRealizado > agg.totalOrcado ? "var(--red)" : "var(--green)" }}>{fmt(agg.totalRealizado)}</td>
+                <td className="num" style={{ color: totalDif >= 0 ? "var(--green)" : "var(--red)" }}>{fmt(totalDif)}</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     );

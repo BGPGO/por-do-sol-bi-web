@@ -1,4 +1,4 @@
-/* BGP BI — gerado por build-data.cjs em 2026-05-22T20:00:08.279Z */
+/* BGP BI — gerado por build-data.cjs em 2026-05-25T16:57:13.335Z */
 /* Empresa: Por do Sol | Ano ref: 2026 */
 const MONTHS = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
 const MONTHS_FULL = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
@@ -12001,8 +12001,11 @@ function filterTx(allTx, statusFilter, drilldown, regime, extraFilters) {
     if (extraFilters.categoria && extraFilters.categoria !== "Todas categorias") {
       out = out.filter(function(r) { return r[3] === extraFilters.categoria; });
     }
-    if (extraFilters.dia && extraFilters.dia > 0) {
-      out = out.filter(function(r) { return r[2] === extraFilters.dia; });
+    if (extraFilters.diaFrom && extraFilters.diaFrom > 0) {
+      out = out.filter(function(r) { return r[2] >= extraFilters.diaFrom; });
+    }
+    if (extraFilters.diaTo && extraFilters.diaTo > 0) {
+      out = out.filter(function(r) { return r[2] <= extraFilters.diaTo; });
     }
   }
   return out;

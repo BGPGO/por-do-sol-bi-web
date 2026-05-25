@@ -87,7 +87,8 @@ const PageDRE = ({ filters, setFilters, statusFilter, drilldown, setDrilldown, y
   const MONTH_LABELS = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
 
   // Compute DRE values per category per month from ALL_TX
-  const dreData = useMemo(() => {
+  // Also builds dreSubs: cat -> Map(razaoSocial -> [12 months])
+  const { dreData, dreSubs } = useMemo(() => {
     const allTx = window.ALL_TX || [];
     const rg = regime === "competencia" ? "k" : "c";
     const sf = statusFilter || "realizado";
@@ -96,6 +97,8 @@ const PageDRE = ({ filters, setFilters, statusFilter, drilldown, setDrilldown, y
 
     // cat -> [12 months]
     const catMonths = new Map();
+    // cat -> Map(razaoSocial -> [12 months])
+    const catSubs = new Map();
     for (const row of txs) {
       const cat = row[3];
       if (!DRE_CAT_SET.has(cat)) continue;
@@ -103,11 +106,17 @@ const PageDRE = ({ filters, setFilters, statusFilter, drilldown, setDrilldown, y
       if (mIdx < 0 || mIdx > 11) continue;
       const kind = row[0]; // 'r' or 'd'
       const valor = row[5];
+      const signed = kind === "r" ? valor : -valor;
       if (!catMonths.has(cat)) catMonths.set(cat, Array(12).fill(0));
-      // Receita = positive, Despesa = negative (DRE convention)
-      catMonths.get(cat)[mIdx] += kind === "r" ? valor : -valor;
+      catMonths.get(cat)[mIdx] += signed;
+      // Sub by razao social (cliente for receita, fornecedor for despesa)
+      const razao = (kind === "r" ? row[4] : row[7]) || "Não Definido";
+      if (!catSubs.has(cat)) catSubs.set(cat, new Map());
+      const subsMap = catSubs.get(cat);
+      if (!subsMap.has(razao)) subsMap.set(razao, Array(12).fill(0));
+      subsMap.get(razao)[mIdx] += signed;
     }
-    return catMonths;
+    return { dreData: catMonths, dreSubs: catSubs };
   }, [statusFilter, regime, refYear, filters]);
 
   // Aggregate by nivel1
@@ -275,27 +284,80 @@ const PageDRE = ({ filters, setFilters, statusFilter, drilldown, setDrilldown, y
                           <td className="num" style={{ color: "var(--fg-3)", fontSize: 11 }}>{avPct(totalN2, totalRecBruta)}</td>
                         </tr>
 
-                        {/* Nivel3 / category detail */}
+                        {/* Nivel3 subcategory headers + category detail */}
                         {isN2Expanded && nivel3s.map(n3Name => {
                           const catsInN3 = DRE_HIERARCHY.filter(h => h.nivel2 === n2Name && h.nivel3 === n3Name);
-                          return catsInN3.map(catRow => {
-                            const vals = dreData.get(catRow.cat) || Array(12).fill(0);
-                            const totalCat = sum(vals);
-                            if (totalCat === 0 && monthsWithData.every(mi => vals[mi] === 0)) return null;
-                            return (
-                              <tr key={catRow.cat} style={{ opacity: 0.8 }}>
-                                <td style={{ ...stickyStyle, paddingLeft: 48, fontSize: 11 }}>{catRow.cat}</td>
+                          const n3Vals = Array(12).fill(0);
+                          for (const c of catsInN3) {
+                            const v = dreData.get(c.cat);
+                            if (v) for (var ii = 0; ii < 12; ii++) n3Vals[ii] += v[ii];
+                          }
+                          const totalN3 = sum(n3Vals);
+                          if (totalN3 === 0 && monthsWithData.every(mi => n3Vals[mi] === 0)) return null;
+                          const isN3Expanded = expanded[`n3:${n2Name}:${n3Name}`];
+                          return (
+                            <React.Fragment key={n3Name}>
+                              <tr style={{ cursor: "pointer" }} onClick={() => toggle(`n3:${n2Name}:${n3Name}`)}>
+                                <td style={{ ...stickyStyle, paddingLeft: 40, fontSize: 11, fontWeight: 600 }}>
+                                  <span className="chev" style={{ marginRight: 4 }}>{isN3Expanded ? "−" : "+"}</span>
+                                  {n3Name}
+                                </td>
                                 {monthsWithData.map(mi => (
                                   <React.Fragment key={mi}>
-                                    <td className="num" style={{ fontSize: 11, color: valColor(vals[mi]) }}>{vals[mi] !== 0 ? fmt(vals[mi]) : "—"}</td>
-                                    <td className="num" style={{ fontSize: 10, color: "var(--fg-3)" }}>{vals[mi] !== 0 ? avPct(vals[mi], recBrutaM[mi]) : ""}</td>
+                                    <td className="num" style={{ fontSize: 11, color: valColor(n3Vals[mi]) }}>{n3Vals[mi] !== 0 ? fmt(n3Vals[mi]) : "—"}</td>
+                                    <td className="num" style={{ fontSize: 10, color: "var(--fg-3)" }}>{n3Vals[mi] !== 0 ? avPct(n3Vals[mi], recBrutaM[mi]) : ""}</td>
                                   </React.Fragment>
                                 ))}
-                                <td className="num" style={{ fontSize: 11, color: valColor(totalCat) }}>{totalCat !== 0 ? fmt(totalCat) : "—"}</td>
-                                <td className="num" style={{ fontSize: 10, color: "var(--fg-3)" }}>{totalCat !== 0 ? avPct(totalCat, totalRecBruta) : ""}</td>
+                                <td className="num" style={{ fontSize: 11, fontWeight: 600, color: valColor(totalN3) }}>{totalN3 !== 0 ? fmt(totalN3) : "—"}</td>
+                                <td className="num" style={{ fontSize: 10, color: "var(--fg-3)" }}>{totalN3 !== 0 ? avPct(totalN3, totalRecBruta) : ""}</td>
                               </tr>
-                            );
-                          });
+                              {isN3Expanded && catsInN3.map(catRow => {
+                                const vals = dreData.get(catRow.cat) || Array(12).fill(0);
+                                const totalCat = sum(vals);
+                                if (totalCat === 0 && monthsWithData.every(mi => vals[mi] === 0)) return null;
+                                const isCatExpanded = expanded[`cat:${catRow.cat}`];
+                                const subsMap = dreSubs.get(catRow.cat);
+                                const hasSubs = subsMap && subsMap.size > 0;
+                                return (
+                                  <React.Fragment key={catRow.cat}>
+                                    <tr style={{ opacity: 0.8, cursor: hasSubs ? "pointer" : "default" }} onClick={() => hasSubs && toggle(`cat:${catRow.cat}`)}>
+                                      <td style={{ ...stickyStyle, paddingLeft: 60, fontSize: 11 }}>
+                                        {hasSubs && <span className="chev" style={{ marginRight: 4 }}>{isCatExpanded ? "−" : "+"}</span>}
+                                        {catRow.cat}
+                                      </td>
+                                      {monthsWithData.map(mi => (
+                                        <React.Fragment key={mi}>
+                                          <td className="num" style={{ fontSize: 11, color: valColor(vals[mi]) }}>{vals[mi] !== 0 ? fmt(vals[mi]) : "—"}</td>
+                                          <td className="num" style={{ fontSize: 10, color: "var(--fg-3)" }}>{vals[mi] !== 0 ? avPct(vals[mi], recBrutaM[mi]) : ""}</td>
+                                        </React.Fragment>
+                                      ))}
+                                      <td className="num" style={{ fontSize: 11, color: valColor(totalCat) }}>{totalCat !== 0 ? fmt(totalCat) : "—"}</td>
+                                      <td className="num" style={{ fontSize: 10, color: "var(--fg-3)" }}>{totalCat !== 0 ? avPct(totalCat, totalRecBruta) : ""}</td>
+                                    </tr>
+                                    {isCatExpanded && subsMap && [...subsMap.entries()]
+                                      .sort((a, b) => Math.abs(sum(b[1])) - Math.abs(sum(a[1])))
+                                      .map(([razao, rVals]) => {
+                                        const totalR = sum(rVals);
+                                        if (totalR === 0 && monthsWithData.every(mi => rVals[mi] === 0)) return null;
+                                        return (
+                                          <tr key={razao} style={{ opacity: 0.6 }}>
+                                            <td style={{ ...stickyStyle, paddingLeft: 80, fontSize: 10, fontStyle: "italic" }}>{razao}</td>
+                                            {monthsWithData.map(mi => (
+                                              <React.Fragment key={mi}>
+                                                <td className="num" style={{ fontSize: 10, color: valColor(rVals[mi]) }}>{rVals[mi] !== 0 ? fmt(rVals[mi]) : "—"}</td>
+                                                <td className="num" style={{ fontSize: 9, color: "var(--fg-3)" }}>{rVals[mi] !== 0 ? avPct(rVals[mi], recBrutaM[mi]) : ""}</td>
+                                              </React.Fragment>
+                                            ))}
+                                            <td className="num" style={{ fontSize: 10, color: valColor(totalR) }}>{totalR !== 0 ? fmt(totalR) : "—"}</td>
+                                            <td className="num" style={{ fontSize: 9, color: "var(--fg-3)" }}>{totalR !== 0 ? avPct(totalR, totalRecBruta) : ""}</td>
+                                          </tr>
+                                        );
+                                      })}
+                                  </React.Fragment>
+                                );
+                              })}
+                            </React.Fragment>
+                          );
                         })}
                       </React.Fragment>
                     );
