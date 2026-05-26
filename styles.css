@@ -231,6 +231,19 @@ input, select { font-family: inherit; color: inherit; }
 .breadcrumb b { color: var(--text); font-weight: 600; }
 .breadcrumb svg { width: 12px; height: 12px; color: var(--mute-2); }
 
+.hd-updated {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: var(--mute);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  padding: 4px 10px;
+  white-space: nowrap;
+}
+
 .search-box {
   margin-left: auto;
   position: relative;

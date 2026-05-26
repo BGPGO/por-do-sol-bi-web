@@ -1,4 +1,4 @@
-/* BGP BI — gerado por build-data.cjs em 2026-05-26T20:10:25.112Z */
+/* BGP BI — gerado por build-data.cjs em 2026-05-26T21:01:21.585Z */
 /* Empresa: Por do Sol | Ano ref: 2026 */
 const MONTHS = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
 const MONTHS_FULL = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];

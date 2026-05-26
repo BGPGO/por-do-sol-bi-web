@@ -308,9 +308,15 @@ const Header = ({ page, onToggleSidebar, statusFilter, setStatusFilter, year, se
         <span>BI Financeiro</span>
         <Icon name="chevronRight" />
         <b>{PAGE_TITLES[page] || "Visão Geral"}</b>
+        {window.BIT_META && window.BIT_META.fetched_at && (
+          <span className="hd-updated">
+            <Icon name="calendar" style={{ width: 12, height: 12 }} />
+            Atualizado em {new Date(window.BIT_META.fetched_at).toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" })}
+          </span>
+        )}
       </div>
       <div style={{ flex: 1 }} />
-      <div className="hd-filters" style={{ display: "flex", gap: 6, alignItems: "center", flexWrap: "wrap" }}>
+      <div className="hd-filters" style={{ display: "flex", gap: 6, alignItems: "center", flexWrap: "nowrap" }}>
         <label style={{ fontSize: 10, color: "var(--mute)", textTransform: "uppercase", letterSpacing: "0.05em" }}>De</label>
         <input type="date" className="header-year" value={(filters && filters.dateFrom) || ""} onChange={e => updateFilter({ dateFrom: e.target.value })} style={{ width: 130, fontSize: 12 }} />
         <label style={{ fontSize: 10, color: "var(--mute)", textTransform: "uppercase", letterSpacing: "0.05em" }}>Até</label>
