@@ -1,4 +1,4 @@
-/* BGP BI — gerado por build-data.cjs em 2026-05-27T20:10:19.360Z */
+/* BGP BI — gerado por build-data.cjs em 2026-05-27T20:10:25.395Z */
 /* Empresa: Por do Sol | Ano ref: 2026 */
 const MONTHS = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
 const MONTHS_FULL = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
@@ -23,7 +23,7 @@ const META = {
   "empresa": {
     "nome_fantasia": "Por do Sol"
   },
-  "fetched_at": "2026-05-27T20:10:18.461Z",
+  "fetched_at": "2026-05-27T20:10:24.437Z",
   "ref_year": 2026,
   "counts": {
     "contas_pagar": 0,
