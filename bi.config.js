@@ -4,7 +4,7 @@ module.exports = {
   cliente: {
     nome: "Por do Sol",
     subdomain: "por-do-sol-bi",
-    coolify_app_uuid: "",
+    coolify_app_uuid: "tsgnmype6hnqrudr60cyc39f",
     cor_primaria: "#f59e0b",  // amber/sunset
   },
 
