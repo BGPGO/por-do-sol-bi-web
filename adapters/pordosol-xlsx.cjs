@@ -187,13 +187,11 @@ module.exports = {
 
     // Filtrar categorias de transferência e aplicações (não são receita/despesa real)
     const EXCLUIR_CATS = [
-      '06.02.01 TRANSFERENCIA ENTRE CONTAS',
       '06.02.02 APLICAÇÔES DE RESGATE',
       'Empréstimo',
       'Pagamento de Empréstimo',
-      'EMPRÉSTIMO FUNCIONÁRIOS',
     ];
-    const EXCLUIR_RE = /transfer[eê]ncia[s]?\s+(entre\s+contas|de\s+sa[ií]da|recebida[s]?|de\s+entrada)/i;
+    const EXCLUIR_RE = /transfer[eê]ncia[s]?\s+(entre\s+contas|de\s+sa[ií]da|de\s+entrada)/i;
     const isExcluida = (cat) => EXCLUIR_CATS.includes(cat) || EXCLUIR_RE.test(cat);
 
     const cxFiltered = cxMovs.filter(m => !isExcluida(m.categoria));
