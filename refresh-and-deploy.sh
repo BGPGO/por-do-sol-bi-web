@@ -31,7 +31,11 @@ node build-jsx.cjs
 echo ">> smoke test..."
 node -e "new Function(require('fs').readFileSync('app.bundle.js','utf8'))"
 
-# 5. Commit + push (só se houve mudança)
+# 5. Sync com remote (evita rejeição se alguém pushou direto)
+echo ">> git pull --rebase..."
+git pull --rebase origin main || true
+
+# 6. Commit + push (só se houve mudança)
 if git diff --quiet data.js app.bundle.js data-extras.js 2>/dev/null; then
   echo ">> Sem mudanças nos dados — skip push"
 else
@@ -41,7 +45,7 @@ else
   git push origin main
 fi
 
-# 6. Trigger Coolify deploy
+# 7. Trigger Coolify deploy
 echo ">> Deploy Coolify..."
 curl -s -H "Authorization: Bearer $COOLIFY_TOKEN" \
   "$COOLIFY_HOST/api/v1/deploy?uuid=$COOLIFY_UUID&force=false"

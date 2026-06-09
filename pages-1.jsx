@@ -244,7 +244,7 @@ const PageOverview = ({ filters, setFilters, onOpenFilters, statusFilter, drilld
       <div className="page-title">
         <div>
           <h1>Visão Geral</h1>
-          <div className="status-line">Cliente · ano {refYear} · status <b>{statusLabel}</b></div>
+          <div className="status-line">Cliente · ano {refYear} · status <b>{statusLabel}</b> · atualizado em {typeof REFRESH_DATE !== 'undefined' ? REFRESH_DATE : '—'}</div>
         </div>
         <div className="actions">
           <RegimeToggle filters={filters} setFilters={setFilters} />

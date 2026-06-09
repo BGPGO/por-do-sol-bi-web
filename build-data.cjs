@@ -652,6 +652,7 @@ const ALL_TX = ${JSON.stringify([
 
 const REF_YEAR = ${REF_YEAR};
 const AVAILABLE_YEARS = ${JSON.stringify(AVAILABLE_YEARS)};
+const REFRESH_DATE = "${new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo' })}";
 
 // aggregateTx: recomputa MONTH_DATA, KPIS, top categorias/clientes/fornecedores
 // e EXTRATO a partir de uma lista filtrada de transacoes. Chamada pelas Pages
