@@ -17,9 +17,13 @@ module.exports = {
       // Competência: receita e despesa em arquivos separados
       competencia_receita_file: "Recebimeto Comp.xls",
       competencia_despesa_file: "Pagamento Comp.xls",
-      // Orçamento x Realizado
+      // Orçamento x Realizado (XLSX para meses até maio/2026)
       orcamento_file: "FINANCEIRO POR DO SOL.xlsx",
       orcamento_sheet: "ORCAMENTO X REALIZADO",
+      // Google Sheets: orçamento a partir de junho/2026
+      orcamento_gsheet_id: "1sOjrVQXkoJngO4B8cZd9kmlKLpYGlYne0vrzfuFinWo",
+      orcamento_gsheet_gid: "789373136",
+      orcamento_gsheet_from: "2026-06",
     },
 
     drive: {

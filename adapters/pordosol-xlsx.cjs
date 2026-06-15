@@ -13,6 +13,7 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
+const https = require('node:https');
 const XLSX = require('xlsx');
 
 function readSheet(file, sheetIdx) {
@@ -44,6 +45,98 @@ function isoDate(v) {
     if (m) return `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}`;
   }
   return null;
+}
+
+// ---------- Google Sheets CSV helpers ----------
+const MONTH_MAP = {
+  'janeiro': '01', 'fevereiro': '02', 'março': '03', 'marco': '03',
+  'abril': '04', 'maio': '05', 'junho': '06', 'julho': '07',
+  'agosto': '08', 'setembro': '09', 'outubro': '10', 'novembro': '11', 'dezembro': '12',
+};
+
+function fetchCsv(url) {
+  return new Promise((resolve, reject) => {
+    const get = (u) => {
+      https.get(u, (res) => {
+        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+          return get(res.headers.location);
+        }
+        let data = '';
+        res.on('data', chunk => data += chunk);
+        res.on('end', () => resolve(data));
+        res.on('error', reject);
+      }).on('error', reject);
+    };
+    get(url);
+  });
+}
+
+function parseCsvLine(line) {
+  const fields = [];
+  let inQuotes = false, field = '';
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (c === '"') {
+      if (inQuotes && line[i + 1] === '"') { field += '"'; i++; }
+      else inQuotes = !inQuotes;
+    } else if (c === ',' && !inQuotes) {
+      fields.push(field); field = '';
+    } else {
+      field += c;
+    }
+  }
+  fields.push(field);
+  return fields;
+}
+
+function parseBRL(v) {
+  if (!v || typeof v !== 'string') return 0;
+  const s = v.replace(/R\$\s*/g, '').replace(/\./g, '').replace(',', '.').trim();
+  const n = Number(s);
+  return isNaN(n) ? 0 : n;
+}
+
+function parseGSheetMonth(header) {
+  // "junho/26" → "2026-06"
+  const m = header.trim().toLowerCase().match(/^(\w+)\/(\d{2,4})$/);
+  if (!m) return null;
+  const monthNum = MONTH_MAP[m[1]];
+  if (!monthNum) return null;
+  const year = m[2].length === 2 ? '20' + m[2] : m[2];
+  return `${year}-${monthNum}`;
+}
+
+function parseGSheetOrcamento(csvText) {
+  const lines = csvText.split('\n').filter(l => l.trim());
+  if (lines.length < 2) return [];
+  const headers = parseCsvLine(lines[0]);
+  const monthCols = [];
+  for (let i = 1; i < headers.length; i++) {
+    const ym = parseGSheetMonth(headers[i]);
+    if (ym) monthCols.push({ idx: i, mes: ym });
+  }
+  const rows = [];
+  for (let li = 1; li < lines.length; li++) {
+    const fields = parseCsvLine(lines[li]);
+    const conta = (fields[0] || '').trim();
+    if (!conta) continue;
+    // Skip top-level totals like "2. Despesas" and group headers (XX.XX without children that have 0)
+    // Include only rows with code pattern XX.XX or XX.XX.XX that have non-zero values
+    if (/^\d+\.\s/.test(conta)) continue; // "2. Despesas" etc
+    for (const mc of monthCols) {
+      const val = parseBRL(fields[mc.idx] || '');
+      if (val === 0) continue;
+      rows.push({
+        mes: mc.mes,
+        departamento: '',
+        conta,
+        realizado: 0,
+        orcamento: val,
+        saldo: val,
+      });
+    }
+  }
+  return rows;
 }
 
 let idSeq = 1;
@@ -226,17 +319,19 @@ module.exports = {
     fs.writeFileSync(path.join(dataDir, 'contas_receber.json'), JSON.stringify([]));
 
     // 4. Orçamento x Realizado
+    // Estratégia: meses < gsheet_from → XLSX local; meses >= gsheet_from → Google Sheets
+    const gsheetFrom = cfg.orcamento_gsheet_from || null; // e.g. "2026-06"
+    let orcamentoXlsx = [];
+
     const orcFile = cfg.orcamento_file ? path.join(drive, cfg.orcamento_file) : null;
     if (orcFile && fs.existsSync(orcFile)) {
-      console.log('Lendo orçamento:', orcFile);
+      console.log('Lendo orçamento XLSX:', orcFile);
       const sheetName = cfg.orcamento_sheet || 'ORCAMENTO X REALIZADO';
       const orcWb = XLSX.readFile(orcFile, { type: 'binary', codepage: 65001 });
-      // Find sheet by name (with or without accents)
       const matchSheet = orcWb.SheetNames.find(sn => sn.replace(/[ÇçÃãÊêÔô]/g, c => ({Ç:'C',ç:'c',Ã:'A',ã:'a',Ê:'E',ê:'e',Ô:'O',ô:'o'}[c]||c)).toUpperCase() === sheetName.toUpperCase()) || sheetName;
       const orcSheet = orcWb.Sheets[matchSheet] || orcWb.Sheets[orcWb.SheetNames[0]];
       const orcRows = XLSX.utils.sheet_to_json(orcSheet, { defval: '' });
 
-      // Convert Excel serial date → "YYYY-MM"
       function serialToYearMonth(v) {
         if (!v && v !== 0) return null;
         if (typeof v === 'number' && v > 1000) {
@@ -246,15 +341,12 @@ module.exports = {
           return `${y}-${m}`;
         }
         if (typeof v === 'string') {
-          // Already formatted or parseable
           const mm = v.match(/^(\d{4})-(\d{2})/);
           if (mm) return `${mm[1]}-${mm[2]}`;
         }
         return null;
       }
 
-      const orcamento = [];
-      // Column names may have accents: MÊS, ORÇAMENTO
       const colMes = Object.keys(orcRows[0] || {}).find(k => /^M[EÊ]S$/i.test(k)) || 'MES';
       const colOrc = Object.keys(orcRows[0] || {}).find(k => /^OR[CÇ]AMENTO$/i.test(k)) || 'ORCAMENTO';
       for (const r of orcRows) {
@@ -268,21 +360,40 @@ module.exports = {
         const departamento = String(r['DEPARTAMENTO'] || '').trim();
         const conta = String(r['CONTAS'] || '').trim();
         if (!conta) continue;
-        orcamento.push({
-          mes,
-          departamento,
-          conta,
-          realizado,
-          orcamento: orcamentoVal,
-          saldo,
-        });
+        orcamentoXlsx.push({ mes, departamento, conta, realizado, orcamento: orcamentoVal, saldo });
       }
-      fs.writeFileSync(path.join(dataDir, 'orcamento.json'), JSON.stringify(orcamento, null, 2));
-      console.log(`  orçamento: ${orcRows.length} rows → ${orcamento.length} registros`);
-    } else {
-      fs.writeFileSync(path.join(dataDir, 'orcamento.json'), JSON.stringify([]));
-      if (orcFile) console.warn(`  [warn] arquivo de orçamento não encontrado: ${orcFile}`);
+      console.log(`  orçamento XLSX: ${orcRows.length} rows → ${orcamentoXlsx.length} registros`);
+    } else if (orcFile) {
+      console.warn(`  [warn] arquivo de orçamento não encontrado: ${orcFile}`);
     }
+
+    // Google Sheets: orçamento a partir de gsheet_from (ex: junho/2026)
+    let orcamentoGSheet = [];
+    if (cfg.orcamento_gsheet_id && cfg.orcamento_gsheet_gid) {
+      const gsheetUrl = `https://docs.google.com/spreadsheets/d/${cfg.orcamento_gsheet_id}/gviz/tq?tqx=out:csv&gid=${cfg.orcamento_gsheet_gid}`;
+      try {
+        console.log('Buscando orçamento Google Sheets...');
+        const csvText = await fetchCsv(gsheetUrl);
+        orcamentoGSheet = parseGSheetOrcamento(csvText);
+        console.log(`  orçamento Google Sheets: ${orcamentoGSheet.length} registros`);
+      } catch (e) {
+        console.warn(`  [warn] falha ao buscar Google Sheets: ${e.message}`);
+      }
+    }
+
+    // Merge: XLSX para meses < gsheet_from, Google Sheets para meses >= gsheet_from
+    let orcamento;
+    if (gsheetFrom && orcamentoGSheet.length > 0) {
+      const xlsxFiltered = orcamentoXlsx.filter(r => r.mes < gsheetFrom);
+      const gsheetFiltered = orcamentoGSheet.filter(r => r.mes >= gsheetFrom);
+      orcamento = [...xlsxFiltered, ...gsheetFiltered];
+      console.log(`  orçamento merged: ${xlsxFiltered.length} XLSX (< ${gsheetFrom}) + ${gsheetFiltered.length} GSheet (>= ${gsheetFrom}) = ${orcamento.length} total`);
+    } else {
+      orcamento = orcamentoXlsx;
+    }
+
+    fs.writeFileSync(path.join(dataDir, 'orcamento.json'), JSON.stringify(orcamento, null, 2));
+    console.log(`  orçamento final: ${orcamento.length} registros`);
 
     fs.writeFileSync(path.join(dataDir, '_summary.json'), JSON.stringify({
       adapter: 'pordosol-xlsx',
