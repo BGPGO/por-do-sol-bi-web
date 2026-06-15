@@ -381,6 +381,31 @@ module.exports = {
       }
     }
 
+    // Computar realizado para meses do GSheet a partir das transações reais (despesas)
+    if (orcamentoGSheet.length > 0 && allMovs.length > 0) {
+      // Agrupar despesas reais por mes+categoria
+      const despByMesCat = new Map();
+      for (const m of allMovs) {
+        if (m.natureza !== 'P') continue; // só despesas
+        const dt = m.data_pagamento || m.data_emissao;
+        if (!dt) continue;
+        const mes = dt.slice(0, 7); // "YYYY-MM"
+        const cat = (m.categoria || '').trim();
+        if (!cat) continue;
+        const key = `${mes}|${cat}`;
+        despByMesCat.set(key, (despByMesCat.get(key) || 0) + Math.abs(m.valor_total || m.valor_pago || 0));
+      }
+      // Preencher realizado no orcamento do GSheet
+      for (const row of orcamentoGSheet) {
+        const key = `${row.mes}|${row.conta}`;
+        const real = despByMesCat.get(key) || 0;
+        row.realizado = real;
+        row.saldo = row.orcamento - real;
+      }
+      const totalReal = orcamentoGSheet.reduce((s, r) => s + r.realizado, 0);
+      console.log(`  realizado computado das transações: R$ ${totalReal.toFixed(2)}`);
+    }
+
     // Merge: XLSX para meses < gsheet_from, Google Sheets para meses >= gsheet_from
     let orcamento;
     if (gsheetFrom && orcamentoGSheet.length > 0) {
