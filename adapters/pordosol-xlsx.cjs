@@ -115,17 +115,33 @@ function parseGSheetOrcamento(csvText) {
     const ym = parseGSheetMonth(headers[i]);
     if (ym) monthCols.push({ idx: i, mes: ym });
   }
-  const rows = [];
+  // First pass: collect all categories and detect which are parents (have children)
+  const allCats = [];
   for (let li = 1; li < lines.length; li++) {
     const fields = parseCsvLine(lines[li]);
     const conta = (fields[0] || '').trim();
     if (!conta) continue;
-    // Skip top-level totals like "2. Despesas" and group headers (XX.XX without children that have 0)
-    // Include only rows with code pattern XX.XX or XX.XX.XX that have non-zero values
-    if (/^\d+\.\s/.test(conta)) continue; // "2. Despesas" etc
+    if (/^\d+\.\s/.test(conta)) continue; // Skip top-level "2. Despesas" etc
+    allCats.push({ conta, fields });
+  }
+  // Detect parent categories (those whose code is a prefix of another)
+  const catCodes = allCats.map(c => c.conta.match(/^[\d.]+/)?.[0] || '');
+  const isParent = new Set();
+  for (let i = 0; i < catCodes.length; i++) {
+    for (let j = 0; j < catCodes.length; j++) {
+      if (i !== j && catCodes[j].startsWith(catCodes[i] + '.')) {
+        isParent.add(i);
+        break;
+      }
+    }
+  }
+  const rows = [];
+  for (let i = 0; i < allCats.length; i++) {
+    if (isParent.has(i)) continue; // Skip parent/group headers
+    const { conta, fields } = allCats[i];
     for (const mc of monthCols) {
       const val = parseBRL(fields[mc.idx] || '');
-      if (val === 0) continue;
+      // Include even if val=0 — realizado will be filled from transactions
       rows.push({
         mes: mc.mes,
         departamento: '',
@@ -383,27 +399,46 @@ module.exports = {
 
     // Computar realizado para meses do GSheet a partir das transações reais (despesas)
     if (orcamentoGSheet.length > 0 && allMovs.length > 0) {
-      // Agrupar despesas reais por mes+categoria
+      const normKey = (s) => s.replace(/\s+/g, ' ').trim(); // normaliza espaços duplos
+      // Agrupar despesas reais por mes+categoria (normalizado)
       const despByMesCat = new Map();
       for (const m of allMovs) {
-        if (m.natureza !== 'P') continue; // só despesas
+        if (m.natureza !== 'P') continue;
         const dt = m.data_pagamento || m.data_emissao;
         if (!dt) continue;
-        const mes = dt.slice(0, 7); // "YYYY-MM"
-        const cat = (m.categoria || '').trim();
+        const mes = dt.slice(0, 7);
+        const cat = normKey(m.categoria || '');
         if (!cat) continue;
         const key = `${mes}|${cat}`;
         despByMesCat.set(key, (despByMesCat.get(key) || 0) + Math.abs(m.valor_total || m.valor_pago || 0));
       }
-      // Preencher realizado no orcamento do GSheet
+      // Preencher realizado nas categorias do GSheet
+      const gsheetMeses = new Set(orcamentoGSheet.map(r => r.mes));
+      const matchedKeys = new Set();
       for (const row of orcamentoGSheet) {
-        const key = `${row.mes}|${row.conta}`;
+        const key = `${row.mes}|${normKey(row.conta)}`;
         const real = despByMesCat.get(key) || 0;
         row.realizado = real;
         row.saldo = row.orcamento - real;
+        if (real > 0) matchedKeys.add(key);
+      }
+      // Adicionar categorias órfãs (existem nas transações mas não no GSheet)
+      let orphanCount = 0;
+      for (const [key, val] of despByMesCat) {
+        const [mes, cat] = [key.slice(0, 7), key.slice(8)];
+        if (!gsheetMeses.has(mes)) continue;
+        if (matchedKeys.has(key)) continue;
+        // Checar se já existe no GSheet com nome normalizado
+        const exists = orcamentoGSheet.some(r => r.mes === mes && normKey(r.conta) === cat);
+        if (exists) continue;
+        orcamentoGSheet.push({
+          mes, departamento: '', conta: cat,
+          realizado: val, orcamento: 0, saldo: -val,
+        });
+        orphanCount++;
       }
       const totalReal = orcamentoGSheet.reduce((s, r) => s + r.realizado, 0);
-      console.log(`  realizado computado das transações: R$ ${totalReal.toFixed(2)}`);
+      console.log(`  realizado computado das transações: R$ ${totalReal.toFixed(2)} (${orphanCount} categorias órfãs adicionadas)`);
     }
 
     // Merge: XLSX para meses < gsheet_from, Google Sheets para meses >= gsheet_from
