@@ -10,7 +10,7 @@ set -e
 cd "$(dirname "$0")"
 
 COOLIFY_TOKEN="55|jsrzS3qEfcI8gNXRIombOCx4tLPIm1tITZd8kAGO67394666"
-COOLIFY_UUID="w10qex9dsvs1l71cu3iegk61"
+COOLIFY_UUID="tsgnmype6hnqrudr60cyc39f"
 COOLIFY_HOST="http://187.77.238.125:8000"
 
 echo "=== $(date) === Refresh BI Por do Sol ==="
@@ -31,17 +31,16 @@ node build-jsx.cjs
 echo ">> smoke test..."
 node -e "new Function(require('fs').readFileSync('app.bundle.js','utf8'))"
 
-# 5. Sync com remote (evita rejeição se alguém pushou direto)
-echo ">> git pull --rebase..."
-git pull --rebase origin main || true
+# 5. Commit mudanças locais antes de sync
+echo ">> staging changes..."
+git add data.js app.bundle.js data-extras.js report*.json
 
-# 6. Commit + push (só se houve mudança)
-if git diff --quiet data.js app.bundle.js data-extras.js 2>/dev/null; then
+if git diff --cached --quiet 2>/dev/null; then
   echo ">> Sem mudanças nos dados — skip push"
 else
-  echo ">> Dados atualizados — commit + push..."
-  git add data.js app.bundle.js data-extras.js report*.json
+  echo ">> Dados atualizados — commit + pull + push..."
   git commit -m "auto: refresh dados $(date +%Y-%m-%d\ %H:%M)" --no-verify || true
+  git pull --rebase origin main || true
   git push origin main
 fi
 
