@@ -1,0 +1,2 @@
+# Refresh 2x/dia: 09:00 UTC (06:00 BRT) e 21:00 UTC (18:00 BRT)
+0 9,21 * * * /app/refresh.sh

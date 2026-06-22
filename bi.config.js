@@ -27,7 +27,7 @@ module.exports = {
     },
 
     drive: {
-      base_path: "G:/Meu Drive/BGP/CLIENTES/BI/457. Por do sol/BASES",
+      base_path: process.env.XLSX_BASE_PATH || "G:/Meu Drive/BGP/CLIENTES/BI/457. Por do sol/BASES",
     },
   },
 
