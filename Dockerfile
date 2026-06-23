@@ -1,7 +1,9 @@
 FROM nginx:alpine
 
 # Node 20 + cron + ferramentas mínimas pro ETL diário
-RUN apk add --no-cache nodejs npm dcron tini ca-certificates curl \
+# icu-data-full: sem ele o Node do Alpine só formata en-US, e o REFRESH_DATE
+# ("Atualizado em") sai "06/23/2026, 03:52 PM" em vez de "23/06/2026, 15:52".
+RUN apk add --no-cache nodejs npm dcron tini ca-certificates curl icu-data-full \
  && mkdir -p /app /var/log
 
 WORKDIR /app
