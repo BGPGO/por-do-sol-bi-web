@@ -15,7 +15,7 @@ COPY adapters/ ./adapters/
 COPY fetch-data.cjs build-data.cjs build-data-extras.cjs build-jsx.cjs ./
 COPY bi.config.js ./
 COPY components.jsx pages-1.jsx pages-2.jsx pages-3.jsx pages-4.jsx ./
-COPY page-dre.jsx page-orcamento.jsx ./
+COPY page-dre.jsx page-orcamento.jsx upsell-pages.jsx ./
 
 # Site estático servido pelo nginx
 COPY index.html styles.css /usr/share/nginx/html/
