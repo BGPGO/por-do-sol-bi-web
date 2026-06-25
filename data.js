@@ -1,4 +1,4 @@
-/* BGP BI — gerado por build-data.cjs em 2026-06-25T20:28:11.663Z */
+/* BGP BI — gerado por build-data.cjs em 2026-06-25T20:51:16.310Z */
 /* Empresa: Por do Sol | Ano ref: 2026 */
 const MONTHS = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
 const MONTHS_FULL = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
@@ -11884,7 +11884,7 @@ const ALL_TX = [["r","2025-01",1,"01.01.08 RECEITA SITE","Enrico Gance",58.41,1,
 
 const REF_YEAR = 2026;
 const AVAILABLE_YEARS = [2026,2025];
-const REFRESH_DATE = "25/06/2026, 17:28";
+const REFRESH_DATE = "25/06/2026, 17:51";
 
 // aggregateTx: recomputa MONTH_DATA, KPIS, top categorias/clientes/fornecedores
 // e EXTRATO a partir de uma lista filtrada de transacoes. Chamada pelas Pages
