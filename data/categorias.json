@@ -1,0 +1,427 @@
+[
+  {
+    "codigo": "01.01.08 RECEITA SITE",
+    "descricao": "01.01.08 RECEITA SITE",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "Taxas pagas",
+    "descricao": "Taxas pagas",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "01.01.05 RECEITA MARKETPLACE",
+    "descricao": "01.01.05 RECEITA MARKETPLACE",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.04.01 SOFTWARES , SISTEMAS E TI",
+    "descricao": "04.04.01 SOFTWARES , SISTEMAS E TI",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.02.02 FRETES - PAGO PELA EMPRESA",
+    "descricao": "03.02.02 FRETES - PAGO PELA EMPRESA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.05 VALE TRANSPORTE",
+    "descricao": "04.02.05 VALE TRANSPORTE",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.08 OUTRAS DESPESAS DE RH",
+    "descricao": "04.02.08 OUTRAS DESPESAS DE RH",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "05.01.03 AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "descricao": "05.01.03 AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.05.05 REPAROS E MANUTENÇÃO PREDIAL",
+    "descricao": "04.05.05 REPAROS E MANUTENÇÃO PREDIAL",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.01.07 PRODUTOS PARA REVENDA",
+    "descricao": "03.01.07 PRODUTOS PARA REVENDA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.01.08 EMBALAGEM DO PRODUTO",
+    "descricao": "03.01.08 EMBALAGEM DO PRODUTO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.02.03 EMBALAGEM PARA EXPEDIÇÃO",
+    "descricao": "03.02.03 EMBALAGEM PARA EXPEDIÇÃO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "02.03.01 DEVOLUÇÕES",
+    "descricao": "02.03.01 DEVOLUÇÕES",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.01.01 PRO-LABORE",
+    "descricao": "04.01.01 PRO-LABORE",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "02.01 TAXAS SOBRE VENDAS",
+    "descricao": "02.01 TAXAS SOBRE VENDAS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "01.01.06 RECEITA REVENDEDORES",
+    "descricao": "01.01.06 RECEITA REVENDEDORES",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "01.01.07 RECEITA WATSAPP",
+    "descricao": "01.01.07 RECEITA WATSAPP",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "01.01.02 RECEITA LOJA FISICA",
+    "descricao": "01.01.02 RECEITA LOJA FISICA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.04 VALE ALIMENTAÇÃO E CESTA BÁSICA",
+    "descricao": "04.02.04 VALE ALIMENTAÇÃO E CESTA BÁSICA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.03.01 ALUGUEL",
+    "descricao": "04.03.01 ALUGUEL",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "01.02.02 OUTRAS RECEITAS",
+    "descricao": "01.02.02 OUTRAS RECEITAS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.03.05 GÁS",
+    "descricao": "04.03.05 GÁS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.06 PLANO DE SAÚDE",
+    "descricao": "04.02.06 PLANO DE SAÚDE",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.03 FÉRIAS",
+    "descricao": "04.02.03 FÉRIAS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "10.01.03 RENDIMENTOS DE APLICAÇÕES",
+    "descricao": "10.01.03 RENDIMENTOS DE APLICAÇÕES",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.02.04 OUTROS CUSTOS",
+    "descricao": "03.02.04 OUTROS CUSTOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.01.03 MATÉRIA PRIMA - ARTESANATO",
+    "descricao": "03.01.03 MATÉRIA PRIMA - ARTESANATO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.03.06 SEGURANÇA",
+    "descricao": "04.03.06 SEGURANÇA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.01 SALÁRIOS LÍQUIDOS",
+    "descricao": "04.02.01 SALÁRIOS LÍQUIDOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.12 COMISSÕES",
+    "descricao": "04.02.12 COMISSÕES",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.05.01 OUTRAS DESPESAS ADMINISTRATIVAS",
+    "descricao": "04.05.01 OUTRAS DESPESAS ADMINISTRATIVAS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.03.07 OUTRAS DESPESAS DE INFRAESTRUTURA",
+    "descricao": "04.03.07 OUTRAS DESPESAS DE INFRAESTRUTURA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.06.05 MATERIAIS DE DIVULGAÇÃO",
+    "descricao": "04.06.05 MATERIAIS DE DIVULGAÇÃO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.03.04 ÁGUA",
+    "descricao": "04.03.04 ÁGUA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.06.02 AGÊNCIA DE MKT",
+    "descricao": "04.06.02 AGÊNCIA DE MKT",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.04.02 ASSESSORIA CONTÁBIL E RH",
+    "descricao": "04.04.02 ASSESSORIA CONTÁBIL E RH",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "02.02.02 OUTROS IMPOSTOS",
+    "descricao": "02.02.02 OUTROS IMPOSTOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.03.02 TELEFONE / INTERNET",
+    "descricao": "04.03.02 TELEFONE / INTERNET",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "10.01.02  AMORTIZAÇÃO DE EMPRESTIMOS",
+    "descricao": "10.01.02  AMORTIZAÇÃO DE EMPRESTIMOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.05.03 MATERIAL DE LIMPEZA, COPA E COZINHA",
+    "descricao": "04.05.03 MATERIAL DE LIMPEZA, COPA E COZINHA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.01.01 MATÉRIA PRIMA - RAPÉ",
+    "descricao": "03.01.01 MATÉRIA PRIMA - RAPÉ",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.05.02 MATERIAL DE ESCRITÓRIO",
+    "descricao": "04.05.02 MATERIAL DE ESCRITÓRIO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.06.04 TRÁFEGO PAGO",
+    "descricao": "04.06.04 TRÁFEGO PAGO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.05.06 TAXAS BANCÁRIAS",
+    "descricao": "04.05.06 TAXAS BANCÁRIAS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "02.02.01 SIMPLES NACIONAL",
+    "descricao": "02.02.01 SIMPLES NACIONAL",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.09 FGTS S/ FOLHA",
+    "descricao": "04.02.09 FGTS S/ FOLHA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.13 INSS S/ FOLHA",
+    "descricao": "04.02.13 INSS S/ FOLHA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "08.01.02 RETIRADAS DO SÓCIO",
+    "descricao": "08.01.02 RETIRADAS DO SÓCIO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "05.01.01 AQUISICAÇÃO E REFORMA DE IMOVEIS",
+    "descricao": "05.01.01 AQUISICAÇÃO E REFORMA DE IMOVEIS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "09.01.01 SAÍDAS NÃO OPERACIONAIS",
+    "descricao": "09.01.01 SAÍDAS NÃO OPERACIONAIS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.03.03 ENERGIA",
+    "descricao": "04.03.03 ENERGIA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.02.01 FRETES - PAGO PELO CLIENTE",
+    "descricao": "03.02.01 FRETES - PAGO PELO CLIENTE",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.01.05 MATÉRIA PRIMA - FUMO",
+    "descricao": "03.01.05 MATÉRIA PRIMA - FUMO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.04.03 ASSESSORIA ADM / FINANCEIRA",
+    "descricao": "04.04.03 ASSESSORIA ADM / FINANCEIRA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.15 ADIANTAMENTO",
+    "descricao": "04.02.15 ADIANTAMENTO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.06.01 OUTRAS DESPESAS DE MARKETING E COMERCIAL",
+    "descricao": "04.06.01 OUTRAS DESPESAS DE MARKETING E COMERCIAL",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.10 BONIFICAÇÕES",
+    "descricao": "04.02.10 BONIFICAÇÕES",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "10.01.01 CAPTAÇÃO DE EMPRESTIMOS",
+    "descricao": "10.01.01 CAPTAÇÃO DE EMPRESTIMOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "EMPRÉSTIMO FUNCIONÁRIOS",
+    "descricao": "EMPRÉSTIMO FUNCIONÁRIOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.01.09 MANUTENÇÃO FEITIO",
+    "descricao": "03.01.09 MANUTENÇÃO FEITIO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "07.01.01 AUSTES DE CONCILIAÇÃO",
+    "descricao": "07.01.01 AUSTES DE CONCILIAÇÃO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "01.01.01 RECEITA DE VENDAS",
+    "descricao": "01.01.01 RECEITA DE VENDAS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.06.03 FREELANCERS DE MKT",
+    "descricao": "04.06.03 FREELANCERS DE MKT",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.07.01 LOCAÇÃO DO ESPAÇO",
+    "descricao": "04.07.01 LOCAÇÃO DO ESPAÇO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.04.04 ASSESSORIA JURIDICA",
+    "descricao": "04.04.04 ASSESSORIA JURIDICA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.01.02 MATÉRIA PRIMA - ERVAS",
+    "descricao": "03.01.02 MATÉRIA PRIMA - ERVAS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.01.02 OUTRAS DESPESAS COM SÓCIOS",
+    "descricao": "04.01.02 OUTRAS DESPESAS COM SÓCIOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.07.05 LOCAÇÃO DE VEICULOS E EQUIPAMENTOS",
+    "descricao": "04.07.05 LOCAÇÃO DE VEICULOS E EQUIPAMENTOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.07.03 REFEIÇÕES E ENTRETENIMENTO",
+    "descricao": "04.07.03 REFEIÇÕES E ENTRETENIMENTO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "01.01.03 RECEITA FEIRAS E EVENTOS",
+    "descricao": "01.01.03 RECEITA FEIRAS E EVENTOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.07.02 MÃO DE OBRA TEMPORÁRIA",
+    "descricao": "04.07.02 MÃO DE OBRA TEMPORÁRIA",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.11 RESCISÕES",
+    "descricao": "04.02.11 RESCISÕES",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "08.01.01 APORTES DO SÓCIO",
+    "descricao": "08.01.01 APORTES DO SÓCIO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "09.01.02 ENTRADAS NÃO OPRACIONAIS",
+    "descricao": "09.01.02 ENTRADAS NÃO OPRACIONAIS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.02.02 13º SALÁRIO",
+    "descricao": "04.02.02 13º SALÁRIO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "Transferências recebidas",
+    "descricao": "Transferências recebidas",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "01.02.01 AJUSTE CONCILIAÇÃO DAS RECEITAS",
+    "descricao": "01.02.01 AJUSTE CONCILIAÇÃO DAS RECEITAS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "Tarifa bancária",
+    "descricao": "Tarifa bancária",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "06.02.02 APLICAÇÕES E RESGATE",
+    "descricao": "06.02.02 APLICAÇÕES E RESGATE",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "04.05.07 DESPESAS COM VEÍCULOS",
+    "descricao": "04.05.07 DESPESAS COM VEÍCULOS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "03.01.06 FLORAL DE ERVAS",
+    "descricao": "03.01.06 FLORAL DE ERVAS",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "Rendimento de aplicação financeira",
+    "descricao": "Rendimento de aplicação financeira",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "PLANO DE SAÚDE",
+    "descricao": "PLANO DE SAÚDE",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "ADIANTAMENTO DE SALÁRIO",
+    "descricao": "ADIANTAMENTO DE SALÁRIO",
+    "tipo": "mista"
+  },
+  {
+    "codigo": "09.01.02 ENTRADAS NÃO OPERACIONAIS",
+    "descricao": "09.01.02 ENTRADAS NÃO OPERACIONAIS",
+    "tipo": "mista"
+  }
+]

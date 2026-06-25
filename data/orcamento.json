@@ -1,0 +1,6002 @@
+[
+  {
+    "mes": "2026-01",
+    "departamento": "Marketing",
+    "conta": "AGENCIA DE MARKETING",
+    "realizado": 11125,
+    "orcamento": 11225,
+    "saldo": 100
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Contas de Consumo",
+    "conta": "ALUGUEL",
+    "realizado": 5118.3,
+    "orcamento": 6492.75,
+    "saldo": 1374.45
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Diretoria",
+    "conta": "AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 1987.58,
+    "orcamento": 4000,
+    "saldo": 2012.42
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "ASSESSORIA FINANCEIRA",
+    "realizado": 7500,
+    "orcamento": 7500,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "COMISSÕES",
+    "realizado": 3072.27,
+    "orcamento": 5000,
+    "saldo": 1927.73
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "CONVÊNIO",
+    "realizado": 7103.15,
+    "orcamento": 8500,
+    "saldo": 1396.85
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Diretoria",
+    "conta": "DESPESAS DE INFRAESTRUTURA",
+    "realizado": 2054.1,
+    "orcamento": 1600,
+    "saldo": -454.1
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "DEVOLUÇÕES CLIENTES",
+    "realizado": 12481.7,
+    "orcamento": 15000,
+    "saldo": 2518.3
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM DO PRODUTO / GRAFICA",
+    "realizado": 5266.6,
+    "orcamento": 4400,
+    "saldo": -866.6
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM DO PRODUTO / TAMPA FLIP FLOP",
+    "realizado": 8356.63,
+    "orcamento": 11000,
+    "saldo": 2643.37
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 2899.49,
+    "orcamento": 4500,
+    "saldo": 1600.51
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "FRETES PAGO PELO CLIENTE",
+    "realizado": 9313,
+    "orcamento": 2000,
+    "saldo": -7313
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "FRETES PAGO PELA EMPRESA",
+    "realizado": 27376.25,
+    "orcamento": 28000,
+    "saldo": 623.75
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Feitio",
+    "conta": "GAS - FEITIO",
+    "realizado": 0,
+    "orcamento": 480,
+    "saldo": 480
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "IMPOSTOS",
+    "realizado": 31758.68,
+    "orcamento": 28000,
+    "saldo": -3758.68
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Feitio",
+    "conta": "MANUTENÇÃO FEITIO",
+    "realizado": 0,
+    "orcamento": 300,
+    "saldo": 300
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - ARTESANATO",
+    "realizado": 398.65,
+    "orcamento": 380,
+    "saldo": -18.65
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - CINZAS",
+    "realizado": 34000,
+    "orcamento": 36500,
+    "saldo": 2500
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - FUMO",
+    "realizado": 18640,
+    "orcamento": 11000,
+    "saldo": -7640
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - ERVAS",
+    "realizado": 185,
+    "orcamento": 375,
+    "saldo": 190
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Diretoria",
+    "conta": "MATERIAL DE ESCRITÓRIO",
+    "realizado": 580.1,
+    "orcamento": 500,
+    "saldo": -80.1
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "MATERIAL DE LIMPEZA / COPA / COZINHA",
+    "realizado": 275.86,
+    "orcamento": 700,
+    "saldo": 424.14
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "RH",
+    "conta": "OUTRAS DESPESAS DE RH / CURSOS",
+    "realizado": 20620.49,
+    "orcamento": 15000,
+    "saldo": -5620.49
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / PALO SANTO",
+    "realizado": 0,
+    "orcamento": 700,
+    "saldo": 700
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / COLIBRI",
+    "realizado": 0,
+    "orcamento": 550,
+    "saldo": 550
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / AGUA FLORIDA",
+    "realizado": 0,
+    "orcamento": 400,
+    "saldo": 400
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / AROMATERAPIA",
+    "realizado": 393.18,
+    "orcamento": 850,
+    "saldo": 456.82
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / HELLO BRAIN",
+    "realizado": 0,
+    "orcamento": 350,
+    "saldo": 350
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / AYAHUASCA",
+    "realizado": 0,
+    "orcamento": 15000,
+    "saldo": 15000
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / CACHIMBO",
+    "realizado": 0,
+    "orcamento": 200,
+    "saldo": 200
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / KURIPE",
+    "realizado": 1101,
+    "orcamento": 2800,
+    "saldo": 1699
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / VESTUÁRIO",
+    "realizado": 252.03,
+    "orcamento": 6000,
+    "saldo": 5747.97
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / CBD",
+    "realizado": 2670,
+    "orcamento": 2670,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / SANANGA",
+    "realizado": 543.45,
+    "orcamento": 1400,
+    "saldo": 856.55
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Diretoria",
+    "conta": "PRO-LABORE",
+    "realizado": 26461.99,
+    "orcamento": 20000,
+    "saldo": -6461.99
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Contas de Consumo",
+    "conta": "REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 259.65,
+    "orcamento": 500,
+    "saldo": 240.35
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "RH",
+    "conta": "SALARIOS LIQUIDOS",
+    "realizado": 33303.54,
+    "orcamento": 26000,
+    "saldo": -7303.54
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "RH",
+    "conta": "ADIANTAMENTO",
+    "realizado": 14730.81,
+    "orcamento": 15000,
+    "saldo": 269.19
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Diretoria",
+    "conta": "SOFTWARES E SISTEMA DE TI",
+    "realizado": 22007.9,
+    "orcamento": 10500,
+    "saldo": -11507.9
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "TAXAS BANCARIAS / OPERAÇÕES FINANCEIRAS",
+    "realizado": 5.03,
+    "orcamento": 100,
+    "saldo": 100
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Financeiro",
+    "conta": "TAXAS SOBRE VENDAS",
+    "realizado": 2790.31,
+    "orcamento": 3600,
+    "saldo": 809.69
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Marketing",
+    "conta": "TRAFEGO PAGO",
+    "realizado": 0,
+    "orcamento": 10000,
+    "saldo": 10000
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "RH",
+    "conta": "VALE ALIMENTAÇÃO",
+    "realizado": 5475,
+    "orcamento": 7750,
+    "saldo": 2275
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "RH",
+    "conta": "VALE TRANSPORTE",
+    "realizado": 4910.03,
+    "orcamento": 6400,
+    "saldo": 1489.97
+  },
+  {
+    "mes": "2026-01",
+    "departamento": "Diretoria",
+    "conta": "SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 11330.53,
+    "orcamento": 12000,
+    "saldo": 669.47
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Marketing",
+    "conta": "AGENCIA DE MARKETING",
+    "realizado": 11125,
+    "orcamento": 11225,
+    "saldo": 100
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Contas de Consumo",
+    "conta": "ALUGUEL",
+    "realizado": 6044.22,
+    "orcamento": 6492.75,
+    "saldo": 448.53
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Diretoria",
+    "conta": "AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 1792.03,
+    "orcamento": 4000,
+    "saldo": 2207.97
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "ASSESSORIA FINANCEIRA",
+    "realizado": 7500,
+    "orcamento": 7500,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "COMISSÕES",
+    "realizado": 1978.71,
+    "orcamento": 5000,
+    "saldo": 3021.29
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "CONVÊNIO",
+    "realizado": 7796.56,
+    "orcamento": 8500,
+    "saldo": 703.44
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Diretoria",
+    "conta": "DESPESAS DE INFRAESTRUTURA",
+    "realizado": 2245.13,
+    "orcamento": 1600,
+    "saldo": -645.13
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "DEVOLUÇÕES CLIENTES",
+    "realizado": 21574.07,
+    "orcamento": 15000,
+    "saldo": -6574.07
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM DO PRODUTO / GRAFICA",
+    "realizado": 5473,
+    "orcamento": 4400,
+    "saldo": -1073
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM DO PRODUTO / TAMPA FLIP FLOP",
+    "realizado": 7867.95,
+    "orcamento": 11000,
+    "saldo": 3132.05
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 970.4,
+    "orcamento": 4500,
+    "saldo": 3529.6
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "FRETES PAGO PELO CLIENTE",
+    "realizado": 4153,
+    "orcamento": 2000,
+    "saldo": -2153
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "FRETES PAGO PELA EMPRESA",
+    "realizado": 19683.42,
+    "orcamento": 28000,
+    "saldo": 8316.58
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Feitio",
+    "conta": "GAS - FEITIO",
+    "realizado": 480,
+    "orcamento": 480,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "IMPOSTOS",
+    "realizado": 28354.05,
+    "orcamento": 28000,
+    "saldo": -354.05
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Feitio",
+    "conta": "MANUTENÇÃO FEITIO",
+    "realizado": 65.8,
+    "orcamento": 300,
+    "saldo": 234.2
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - ARTESANATO",
+    "realizado": 575.11,
+    "orcamento": 380,
+    "saldo": -195.11
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - CINZAS",
+    "realizado": 35115,
+    "orcamento": 36500,
+    "saldo": 1385
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - FUMO",
+    "realizado": 0,
+    "orcamento": 11000,
+    "saldo": 11000
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - ERVAS",
+    "realizado": 0,
+    "orcamento": 375,
+    "saldo": 375
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Diretoria",
+    "conta": "MATERIAL DE ESCRITÓRIO",
+    "realizado": 11.1,
+    "orcamento": 500,
+    "saldo": 488.9
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "MATERIAL DE LIMPEZA / COPA / COZINHA",
+    "realizado": 305,
+    "orcamento": 700,
+    "saldo": 395
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "RH",
+    "conta": "OUTRAS DESPESAS DE RH / CURSOS",
+    "realizado": 18472.53,
+    "orcamento": 15000,
+    "saldo": -3472.53
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / PALO SANTO",
+    "realizado": 0,
+    "orcamento": 700,
+    "saldo": 700
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / COLIBRI",
+    "realizado": 0,
+    "orcamento": 550,
+    "saldo": 550
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / AGUA FLORIDA",
+    "realizado": 0,
+    "orcamento": 400,
+    "saldo": 400
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / AROMATERAPIA",
+    "realizado": 0,
+    "orcamento": 850,
+    "saldo": 850
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / HELLO BRAIN",
+    "realizado": 0,
+    "orcamento": 350,
+    "saldo": 350
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / AYAHUASCA",
+    "realizado": 17660,
+    "orcamento": 15000,
+    "saldo": -2660
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / CACHIMBO",
+    "realizado": 500,
+    "orcamento": 200,
+    "saldo": -300
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / KURIPE",
+    "realizado": 1280.6,
+    "orcamento": 2800,
+    "saldo": 1519.4
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / VESTUÁRIO",
+    "realizado": 886.43,
+    "orcamento": 6000,
+    "saldo": 5113.57
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / CBD",
+    "realizado": 2670,
+    "orcamento": 2670,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / SANANGA",
+    "realizado": 0,
+    "orcamento": 1400,
+    "saldo": 1400
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Diretoria",
+    "conta": "PRO-LABORE",
+    "realizado": 26448.07,
+    "orcamento": 20000,
+    "saldo": -6448.07
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Contas de Consumo",
+    "conta": "REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 125.89,
+    "orcamento": 500,
+    "saldo": 374.11
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "RH",
+    "conta": "SALARIOS LIQUIDOS",
+    "realizado": 20639.81,
+    "orcamento": 26000,
+    "saldo": 5360.19
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "RH",
+    "conta": "ADIANTAMENTO",
+    "realizado": 13658.16,
+    "orcamento": 15000,
+    "saldo": 1341.84
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Diretoria",
+    "conta": "SOFTWARES E SISTEMA DE TI",
+    "realizado": 25328.08,
+    "orcamento": 10500,
+    "saldo": -14828.08
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "TAXAS BANCARIAS / OPERAÇÕES FINANCEIRAS",
+    "realizado": 80.83,
+    "orcamento": 100,
+    "saldo": 100
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Financeiro",
+    "conta": "TAXAS SOBRE VENDAS",
+    "realizado": 2136.51,
+    "orcamento": 3600,
+    "saldo": 1463.49
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Marketing",
+    "conta": "TRAFEGO PAGO",
+    "realizado": 0,
+    "orcamento": 10000,
+    "saldo": 10000
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "RH",
+    "conta": "VALE ALIMENTAÇÃO",
+    "realizado": 5100,
+    "orcamento": 7750,
+    "saldo": 2650
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "RH",
+    "conta": "VALE TRANSPORTE",
+    "realizado": 4054.28,
+    "orcamento": 6400,
+    "saldo": 2345.72
+  },
+  {
+    "mes": "2026-02",
+    "departamento": "Diretoria",
+    "conta": "SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 12375.98,
+    "orcamento": 12000,
+    "saldo": -375.98
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Marketing",
+    "conta": "AGENCIA DE MARKETING",
+    "realizado": 11125,
+    "orcamento": 11225,
+    "saldo": 100
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Contas de Consumo",
+    "conta": "ALUGUEL",
+    "realizado": 6644.2,
+    "orcamento": 6492.75,
+    "saldo": -151.45
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Diretoria",
+    "conta": "AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 1091.77,
+    "orcamento": 4000,
+    "saldo": 2908.23
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "ASSESSORIA FINANCEIRA",
+    "realizado": 7500,
+    "orcamento": 7500,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "ASSESSORIA JURIDICA",
+    "realizado": 1839,
+    "orcamento": 0,
+    "saldo": -1839
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "COMISSÕES",
+    "realizado": 2373.73,
+    "orcamento": 5000,
+    "saldo": 2626.27
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "CONVÊNIO",
+    "realizado": 7627.64,
+    "orcamento": 8500,
+    "saldo": 872.36
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Diretoria",
+    "conta": "DESPESAS DE INFRAESTRUTURA",
+    "realizado": 1993.69,
+    "orcamento": 1600,
+    "saldo": -393.69
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "DEVOLUÇÕES CLIENTES",
+    "realizado": 8126.43,
+    "orcamento": 15000,
+    "saldo": 6873.57
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM DO PRODUTO / GRAFICA",
+    "realizado": 5466.4,
+    "orcamento": 4400,
+    "saldo": -1066.4
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM DO PRODUTO / TAMPA FLIP FLOP",
+    "realizado": 6270.1,
+    "orcamento": 11000,
+    "saldo": 4729.9
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 2387.68,
+    "orcamento": 4500,
+    "saldo": 2112.32
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "FRETES PAGO PELO CLIENTE",
+    "realizado": 3882,
+    "orcamento": 2000,
+    "saldo": -1882
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "FRETES PAGO PELA EMPRESA",
+    "realizado": 21120.54,
+    "orcamento": 28000,
+    "saldo": 6879.46
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Feitio",
+    "conta": "GAS - FEITIO",
+    "realizado": 1180,
+    "orcamento": 480,
+    "saldo": -700
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "IMPOSTOS",
+    "realizado": 30150.23,
+    "orcamento": 28000,
+    "saldo": -2150.23
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Feitio",
+    "conta": "MANUTENÇÃO FEITIO",
+    "realizado": 129.99,
+    "orcamento": 300,
+    "saldo": 170.01
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - ARTESANATO",
+    "realizado": 1099,
+    "orcamento": 380,
+    "saldo": -719
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - CINZAS",
+    "realizado": 35115,
+    "orcamento": 36500,
+    "saldo": 1385
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - FUMO",
+    "realizado": 16000,
+    "orcamento": 11000,
+    "saldo": -5000
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - ERVAS",
+    "realizado": 710,
+    "orcamento": 375,
+    "saldo": -335
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Diretoria",
+    "conta": "MATERIAL DE ESCRITÓRIO",
+    "realizado": 272.7,
+    "orcamento": 500,
+    "saldo": 227.3
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "MATERIAL DE LIMPEZA / COPA / COZINHA",
+    "realizado": 261.27,
+    "orcamento": 700,
+    "saldo": 438.73
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "RH",
+    "conta": "OUTRAS DESPESAS DE RH / CURSOS",
+    "realizado": 22054.05,
+    "orcamento": 15000,
+    "saldo": -7054.05
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / PALO SANTO",
+    "realizado": 300,
+    "orcamento": 700,
+    "saldo": 400
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / COLIBRI",
+    "realizado": 579.14,
+    "orcamento": 550,
+    "saldo": -29.14
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / AGUA FLORIDA",
+    "realizado": 720,
+    "orcamento": 400,
+    "saldo": -320
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / AROMATERAPIA",
+    "realizado": 1090.22,
+    "orcamento": 850,
+    "saldo": -240.22
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / HELLO BRAIN",
+    "realizado": 0,
+    "orcamento": 350,
+    "saldo": 350
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / AYAHUASCA",
+    "realizado": 20139,
+    "orcamento": 15000,
+    "saldo": -5139
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / CACHIMBO",
+    "realizado": 0,
+    "orcamento": 200,
+    "saldo": 200
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / KURIPE",
+    "realizado": 1932.31,
+    "orcamento": 2800,
+    "saldo": 867.69
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / VESTUÁRIO",
+    "realizado": 811.66,
+    "orcamento": 6000,
+    "saldo": 5188.34
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / CBD",
+    "realizado": 102.96,
+    "orcamento": 2670,
+    "saldo": 2567.04
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / SANANGA",
+    "realizado": 759.3,
+    "orcamento": 1400,
+    "saldo": 640.7
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Diretoria",
+    "conta": "PRO-LABORE",
+    "realizado": 25545.14,
+    "orcamento": 20000,
+    "saldo": -5545.14
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Contas de Consumo",
+    "conta": "REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 137.89,
+    "orcamento": 500,
+    "saldo": 362.11
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "RH",
+    "conta": "SALARIOS LIQUIDOS",
+    "realizado": 16899.52,
+    "orcamento": 26000,
+    "saldo": 9100.48
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "RH",
+    "conta": "ADIANTAMENTO",
+    "realizado": 14307.34,
+    "orcamento": 15000,
+    "saldo": 692.66
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Diretoria",
+    "conta": "SOFTWARES E SISTEMA DE TI",
+    "realizado": 23375.99,
+    "orcamento": 10500,
+    "saldo": -12875.99
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "TAXAS BANCARIAS / OPERAÇÕES FINANCEIRAS",
+    "realizado": 66.85,
+    "orcamento": 100,
+    "saldo": 100
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Financeiro",
+    "conta": "TAXAS SOBRE VENDAS",
+    "realizado": 1137.54,
+    "orcamento": 3600,
+    "saldo": 2462.46
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Marketing",
+    "conta": "TRAFEGO PAGO",
+    "realizado": 0,
+    "orcamento": 10000,
+    "saldo": 10000
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "RH",
+    "conta": "VALE ALIMENTAÇÃO",
+    "realizado": 6425,
+    "orcamento": 7750,
+    "saldo": 1325
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "RH",
+    "conta": "VALE TRANSPORTE",
+    "realizado": 5021.28,
+    "orcamento": 6400,
+    "saldo": 1378.72
+  },
+  {
+    "mes": "2026-03",
+    "departamento": "Diretoria",
+    "conta": "SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 226048.48,
+    "orcamento": 12000,
+    "saldo": -214048.48
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Marketing",
+    "conta": "AGENCIA DE MARKETING",
+    "realizado": 5500,
+    "orcamento": 11225,
+    "saldo": 5725
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Contas de Consumo",
+    "conta": "ALUGUEL",
+    "realizado": 7892.86,
+    "orcamento": 6492.75,
+    "saldo": -1400.11
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Diretoria",
+    "conta": "AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 2101.04,
+    "orcamento": 4000,
+    "saldo": 1898.96
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "ASSESSORIA FINANCEIRA",
+    "realizado": 10731.5,
+    "orcamento": 7500,
+    "saldo": -3231.5
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "COMISSÕES",
+    "realizado": 12599.89,
+    "orcamento": 5000,
+    "saldo": -7599.89
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "CONVÊNIO",
+    "realizado": 8515.34,
+    "orcamento": 8500,
+    "saldo": -15.34
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Diretoria",
+    "conta": "DESPESAS DE INFRAESTRUTURA",
+    "realizado": 1738.75,
+    "orcamento": 1600,
+    "saldo": -138.75
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "DEVOLUÇÕES CLIENTES",
+    "realizado": 8248.89,
+    "orcamento": 15000,
+    "saldo": 6751.11
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM DO PRODUTO / GRAFICA",
+    "realizado": 4500,
+    "orcamento": 4400,
+    "saldo": -100
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM DO PRODUTO / TAMPA FLIP FLOP",
+    "realizado": 8911.93,
+    "orcamento": 11000,
+    "saldo": 2088.07
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Expedição",
+    "conta": "EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 1581.74,
+    "orcamento": 4500,
+    "saldo": 2918.26
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "FRETES PAGO PELO CLIENTE",
+    "realizado": 5779.69,
+    "orcamento": 2000,
+    "saldo": -3779.69
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "FRETES PAGO PELA EMPRESA",
+    "realizado": 21553.16,
+    "orcamento": 28000,
+    "saldo": 6446.84
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Feitio",
+    "conta": "GAS - FEITIO",
+    "realizado": 480,
+    "orcamento": 480,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "IMPOSTOS",
+    "realizado": 40376.81,
+    "orcamento": 28000,
+    "saldo": -12376.81
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Feitio",
+    "conta": "MANUTENÇÃO FEITIO",
+    "realizado": 129.17,
+    "orcamento": 300,
+    "saldo": 170.83
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - ARTESANATO",
+    "realizado": 127.71,
+    "orcamento": 380,
+    "saldo": 252.29
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - CINZAS",
+    "realizado": 35345,
+    "orcamento": 36500,
+    "saldo": 1155
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - FUMO",
+    "realizado": 0,
+    "orcamento": 11000,
+    "saldo": 11000
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "MATERIA PRIMA - ERVAS",
+    "realizado": 0,
+    "orcamento": 375,
+    "saldo": 375
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Diretoria",
+    "conta": "MATERIAL DE ESCRITÓRIO",
+    "realizado": 190.9,
+    "orcamento": 500,
+    "saldo": 309.1
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "MATERIAL DE LIMPEZA / COPA / COZINHA",
+    "realizado": 454.3,
+    "orcamento": 700,
+    "saldo": 245.7
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "RH",
+    "conta": "OUTRAS DESPESAS DE RH / CURSOS",
+    "realizado": 16858.08,
+    "orcamento": 15000,
+    "saldo": -1858.08
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / PALO SANTO",
+    "realizado": 0,
+    "orcamento": 700,
+    "saldo": 700
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / COLIBRI",
+    "realizado": 458.7,
+    "orcamento": 550,
+    "saldo": 91.3
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / AGUA FLORIDA",
+    "realizado": 0,
+    "orcamento": 400,
+    "saldo": 400
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / AROMATERAPIA",
+    "realizado": 424.4,
+    "orcamento": 850,
+    "saldo": 425.6
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / HELLO BRAIN",
+    "realizado": 0,
+    "orcamento": 350,
+    "saldo": 350
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / AYAHUASCA",
+    "realizado": 17600,
+    "orcamento": 15000,
+    "saldo": -2600
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / CACHIMBO",
+    "realizado": 0,
+    "orcamento": 200,
+    "saldo": 200
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / KURIPE",
+    "realizado": 1475.2,
+    "orcamento": 2800,
+    "saldo": 1324.8
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / VESTUÁRIO",
+    "realizado": 640.62,
+    "orcamento": 6000,
+    "saldo": 5359.38
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Diretoria",
+    "conta": "PRODUTOS PARA REVENDA / CBD",
+    "realizado": 2790,
+    "orcamento": 2670,
+    "saldo": -120
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Adm",
+    "conta": "PRODUTOS PARA REVENDA / SANANGA",
+    "realizado": 0,
+    "orcamento": 1400,
+    "saldo": 1400
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Diretoria",
+    "conta": "PRO-LABORE",
+    "realizado": 26607.6,
+    "orcamento": 20000,
+    "saldo": -6607.6
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Contas de Consumo",
+    "conta": "REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 0,
+    "orcamento": 500,
+    "saldo": 500
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "RH",
+    "conta": "SALARIOS LIQUIDOS",
+    "realizado": 34212.76,
+    "orcamento": 26000,
+    "saldo": -8212.76
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "RH",
+    "conta": "ADIANTAMENTO",
+    "realizado": 13023.34,
+    "orcamento": 15000,
+    "saldo": 1976.66
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Diretoria",
+    "conta": "SOFTWARES E SISTEMA DE TI",
+    "realizado": 22533.01,
+    "orcamento": 10500,
+    "saldo": -12033.01
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "TAXAS BANCARIAS / OPERAÇÕES FINANCEIRAS",
+    "realizado": 255.14,
+    "orcamento": 100,
+    "saldo": 100
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Financeiro",
+    "conta": "TAXAS SOBRE VENDAS",
+    "realizado": 848.95,
+    "orcamento": 3600,
+    "saldo": 2751.05
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Marketing",
+    "conta": "TRAFEGO PAGO",
+    "realizado": 0,
+    "orcamento": 10000,
+    "saldo": 10000
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "RH",
+    "conta": "VALE ALIMENTAÇÃO",
+    "realizado": 5650,
+    "orcamento": 7750,
+    "saldo": 2100
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "RH",
+    "conta": "VALE TRANSPORTE",
+    "realizado": 4374.88,
+    "orcamento": 6400,
+    "saldo": 2025.12
+  },
+  {
+    "mes": "2026-04",
+    "departamento": "Diretoria",
+    "conta": "SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 15635.59,
+    "orcamento": 12000,
+    "saldo": -3635.59
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "02.01 TAXAS SOBRE VENDAS",
+    "realizado": 1485.4,
+    "orcamento": 1500,
+    "saldo": 14.599999999999909
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "02.01 TAXAS SOBRE VENDAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "02.01 TAXAS SOBRE VENDAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "02.01 TAXAS SOBRE VENDAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "02.01 TAXAS SOBRE VENDAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "02.01 TAXAS SOBRE VENDAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "02.01 TAXAS SOBRE VENDAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "02.02.01 SIMPLES NACIONAL",
+    "realizado": 24958.05,
+    "orcamento": 35000,
+    "saldo": 10041.95
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "02.02.01 SIMPLES NACIONAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "02.02.01 SIMPLES NACIONAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "02.02.01 SIMPLES NACIONAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "02.02.01 SIMPLES NACIONAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "02.02.01 SIMPLES NACIONAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "02.02.01 SIMPLES NACIONAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "02.02.02 OUTROS IMPOSTOS",
+    "realizado": 1464.88,
+    "orcamento": 1700,
+    "saldo": 235.1199999999999
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "02.02.02 OUTROS IMPOSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "02.02.02 OUTROS IMPOSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "02.02.02 OUTROS IMPOSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "02.02.02 OUTROS IMPOSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "02.02.02 OUTROS IMPOSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "02.02.02 OUTROS IMPOSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "02.03.01 DEVOLUÇÕES",
+    "realizado": 12204.99,
+    "orcamento": 10000,
+    "saldo": -2204.99
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "02.03.01 DEVOLUÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "02.03.01 DEVOLUÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "02.03.01 DEVOLUÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "02.03.01 DEVOLUÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "02.03.01 DEVOLUÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "02.03.01 DEVOLUÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "02.03.02 OUTRAS DEDUÇÕES DE RECEITAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "02.03.02 OUTRAS DEDUÇÕES DE RECEITAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "02.03.02 OUTRAS DEDUÇÕES DE RECEITAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "02.03.02 OUTRAS DEDUÇÕES DE RECEITAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "02.03.02 OUTRAS DEDUÇÕES DE RECEITAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "02.03.02 OUTRAS DEDUÇÕES DE RECEITAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "02.03.02 OUTRAS DEDUÇÕES DE RECEITAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.01.01 MATÉRIA PRIMA - RAPÉ",
+    "realizado": 5000,
+    "orcamento": 36000,
+    "saldo": 31000
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.01.01 MATÉRIA PRIMA - RAPÉ",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.01.01 MATÉRIA PRIMA - RAPÉ",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.01.01 MATÉRIA PRIMA - RAPÉ",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.01.01 MATÉRIA PRIMA - RAPÉ",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.01.01 MATÉRIA PRIMA - RAPÉ",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.01.01 MATÉRIA PRIMA - RAPÉ",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.01.02 MATÉRIA PRIMA - ERVAS",
+    "realizado": 0,
+    "orcamento": 400,
+    "saldo": 400
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.01.02 MATÉRIA PRIMA - ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.01.02 MATÉRIA PRIMA - ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.01.02 MATÉRIA PRIMA - ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.01.02 MATÉRIA PRIMA - ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.01.02 MATÉRIA PRIMA - ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.01.02 MATÉRIA PRIMA - ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.01.03 MATÉRIA PRIMA - ARTESANATO",
+    "realizado": 545.36,
+    "orcamento": 500,
+    "saldo": -45.360000000000014
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.01.03 MATÉRIA PRIMA - ARTESANATO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.01.03 MATÉRIA PRIMA - ARTESANATO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.01.03 MATÉRIA PRIMA - ARTESANATO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.01.03 MATÉRIA PRIMA - ARTESANATO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.01.03 MATÉRIA PRIMA - ARTESANATO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.01.03 MATÉRIA PRIMA - ARTESANATO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.01.04 MATÉRIA PRIMA - DEFUMAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.01.04 MATÉRIA PRIMA - DEFUMAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.01.04 MATÉRIA PRIMA - DEFUMAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.01.04 MATÉRIA PRIMA - DEFUMAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.01.04 MATÉRIA PRIMA - DEFUMAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.01.04 MATÉRIA PRIMA - DEFUMAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.01.04 MATÉRIA PRIMA - DEFUMAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.01.05 MATÉRIA PRIMA - FUMO",
+    "realizado": 8000,
+    "orcamento": 8000,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.01.05 MATÉRIA PRIMA - FUMO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.01.05 MATÉRIA PRIMA - FUMO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.01.05 MATÉRIA PRIMA - FUMO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.01.05 MATÉRIA PRIMA - FUMO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.01.05 MATÉRIA PRIMA - FUMO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.01.05 MATÉRIA PRIMA - FUMO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.01.06 FLORAL DE ERVAS",
+    "realizado": 13389,
+    "orcamento": 17000,
+    "saldo": 3611
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.01.06 FLORAL DE ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.01.06 FLORAL DE ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.01.06 FLORAL DE ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.01.06 FLORAL DE ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.01.06 FLORAL DE ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.01.06 FLORAL DE ERVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.01.07 PRODUTOS PARA REVENDA",
+    "realizado": 14480.609999999999,
+    "orcamento": 7000,
+    "saldo": -7480.609999999999
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.01.07 PRODUTOS PARA REVENDA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.01.07 PRODUTOS PARA REVENDA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.01.07 PRODUTOS PARA REVENDA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.01.07 PRODUTOS PARA REVENDA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.01.07 PRODUTOS PARA REVENDA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.01.07 PRODUTOS PARA REVENDA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.01.08 EMBALAGEM DO PRODUTO",
+    "realizado": 14681.619999999999,
+    "orcamento": 13000,
+    "saldo": -1681.619999999999
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.01.08 EMBALAGEM DO PRODUTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.01.08 EMBALAGEM DO PRODUTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.01.08 EMBALAGEM DO PRODUTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.01.08 EMBALAGEM DO PRODUTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.01.08 EMBALAGEM DO PRODUTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.01.08 EMBALAGEM DO PRODUTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.01.09 MANUTENÇÃO FEITIO",
+    "realizado": 34.03,
+    "orcamento": 100,
+    "saldo": 65.97
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.01.09 MANUTENÇÃO FEITIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.01.09 MANUTENÇÃO FEITIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.01.09 MANUTENÇÃO FEITIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.01.09 MANUTENÇÃO FEITIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.01.09 MANUTENÇÃO FEITIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.01.09 MANUTENÇÃO FEITIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.01.10 PRODUÇÃO PRÓPRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.01.10 PRODUÇÃO PRÓPRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.01.10 PRODUÇÃO PRÓPRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.01.10 PRODUÇÃO PRÓPRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.01.10 PRODUÇÃO PRÓPRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.01.10 PRODUÇÃO PRÓPRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.01.10 PRODUÇÃO PRÓPRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.02.01 FRETES - PAGO PELO CLIENTE",
+    "realizado": 1260,
+    "orcamento": 5500,
+    "saldo": 4240
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.02.01 FRETES - PAGO PELO CLIENTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.02.01 FRETES - PAGO PELO CLIENTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.02.01 FRETES - PAGO PELO CLIENTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.02.01 FRETES - PAGO PELO CLIENTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.02.01 FRETES - PAGO PELO CLIENTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.02.01 FRETES - PAGO PELO CLIENTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.02.02 FRETES - PAGO PELA EMPRESA",
+    "realizado": 21934.450000000004,
+    "orcamento": 22000,
+    "saldo": 65.54999999999563
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.02.02 FRETES - PAGO PELA EMPRESA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.02.02 FRETES - PAGO PELA EMPRESA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.02.02 FRETES - PAGO PELA EMPRESA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.02.02 FRETES - PAGO PELA EMPRESA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.02.02 FRETES - PAGO PELA EMPRESA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.02.02 FRETES - PAGO PELA EMPRESA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.02.03 EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 867.6,
+    "orcamento": 2000,
+    "saldo": 1132.4
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.02.03 EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.02.03 EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.02.03 EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.02.03 EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.02.03 EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.02.03 EMBALAGEM PARA EXPEDIÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "03.02.04 OUTROS CUSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "03.02.04 OUTROS CUSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "03.02.04 OUTROS CUSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "03.02.04 OUTROS CUSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "03.02.04 OUTROS CUSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "03.02.04 OUTROS CUSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "03.02.04 OUTROS CUSTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.01.01 PRO-LABORE",
+    "realizado": 24762.760000000002,
+    "orcamento": 20000,
+    "saldo": -4762.760000000002
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.01.01 PRO-LABORE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.01.01 PRO-LABORE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.01.01 PRO-LABORE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.01.01 PRO-LABORE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.01.01 PRO-LABORE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.01.01 PRO-LABORE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.01.02 OUTRAS DESPESAS COM SÓCIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.01.02 OUTRAS DESPESAS COM SÓCIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.01.02 OUTRAS DESPESAS COM SÓCIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.01.02 OUTRAS DESPESAS COM SÓCIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.01.02 OUTRAS DESPESAS COM SÓCIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.01.02 OUTRAS DESPESAS COM SÓCIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.01.02 OUTRAS DESPESAS COM SÓCIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.01 SALÁRIOS LÍQUIDOS",
+    "realizado": 16418.89,
+    "orcamento": 15000,
+    "saldo": -1418.8899999999994
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.01 SALÁRIOS LÍQUIDOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.01 SALÁRIOS LÍQUIDOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.01 SALÁRIOS LÍQUIDOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.01 SALÁRIOS LÍQUIDOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.01 SALÁRIOS LÍQUIDOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.01 SALÁRIOS LÍQUIDOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.02 13º SALÁRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.02 13º SALÁRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.02 13º SALÁRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.02 13º SALÁRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.02 13º SALÁRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.02 13º SALÁRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.02 13º SALÁRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.03 FÉRIAS",
+    "realizado": 3506.81,
+    "orcamento": 0,
+    "saldo": -3506.81
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.03 FÉRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.03 FÉRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.03 FÉRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.03 FÉRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.03 FÉRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.03 FÉRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.04 VALE ALIMENTAÇÃO E CESTA BÁSICA",
+    "realizado": 4975,
+    "orcamento": 5000,
+    "saldo": 25
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.04 VALE ALIMENTAÇÃO E CESTA BÁSICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.04 VALE ALIMENTAÇÃO E CESTA BÁSICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.04 VALE ALIMENTAÇÃO E CESTA BÁSICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.04 VALE ALIMENTAÇÃO E CESTA BÁSICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.04 VALE ALIMENTAÇÃO E CESTA BÁSICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.04 VALE ALIMENTAÇÃO E CESTA BÁSICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.05 VALE TRANSPORTE",
+    "realizado": 4502.04,
+    "orcamento": 3800,
+    "saldo": -702.04
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.05 VALE TRANSPORTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.05 VALE TRANSPORTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.05 VALE TRANSPORTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.05 VALE TRANSPORTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.05 VALE TRANSPORTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.05 VALE TRANSPORTE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.06 PLANO DE SAÚDE",
+    "realizado": 7672.69,
+    "orcamento": 8022.17,
+    "saldo": 349.4800000000005
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.06 PLANO DE SAÚDE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.06 PLANO DE SAÚDE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.06 PLANO DE SAÚDE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.06 PLANO DE SAÚDE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.06 PLANO DE SAÚDE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.06 PLANO DE SAÚDE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.07 OUTROS BENEFICIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.07 OUTROS BENEFICIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.07 OUTROS BENEFICIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.07 OUTROS BENEFICIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.07 OUTROS BENEFICIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.07 OUTROS BENEFICIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.07 OUTROS BENEFICIOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.08 OUTRAS DESPESAS DE RH",
+    "realizado": 16259.25,
+    "orcamento": 20000,
+    "saldo": 3740.75
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.08 OUTRAS DESPESAS DE RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.08 OUTRAS DESPESAS DE RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.08 OUTRAS DESPESAS DE RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.08 OUTRAS DESPESAS DE RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.08 OUTRAS DESPESAS DE RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.08 OUTRAS DESPESAS DE RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.09 FGTS S/ FOLHA",
+    "realizado": 2269.5,
+    "orcamento": 2300,
+    "saldo": 30.5
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.09 FGTS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.09 FGTS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.09 FGTS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.09 FGTS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.09 FGTS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.09 FGTS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.10 BONIFICAÇÕES",
+    "realizado": 6000.01,
+    "orcamento": 1800,
+    "saldo": -4200.01
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.10 BONIFICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.10 BONIFICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.10 BONIFICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.10 BONIFICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.10 BONIFICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.10 BONIFICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.11 RESCISÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.11 RESCISÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.11 RESCISÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.11 RESCISÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.11 RESCISÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.11 RESCISÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.11 RESCISÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.12 COMISSÕES",
+    "realizado": 4800.679999999999,
+    "orcamento": 3000,
+    "saldo": -1800.6799999999994
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.12 COMISSÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.12 COMISSÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.12 COMISSÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.12 COMISSÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.12 COMISSÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.12 COMISSÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.13 INSS S/ FOLHA",
+    "realizado": 431.29,
+    "orcamento": 430,
+    "saldo": -1.2900000000000205
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.13 INSS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.13 INSS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.13 INSS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.13 INSS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.13 INSS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.13 INSS S/ FOLHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.14 ANTECIPAÇÃO LUCROS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.14 ANTECIPAÇÃO LUCROS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.14 ANTECIPAÇÃO LUCROS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.14 ANTECIPAÇÃO LUCROS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.14 ANTECIPAÇÃO LUCROS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.14 ANTECIPAÇÃO LUCROS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.14 ANTECIPAÇÃO LUCROS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.02.15 ADIANTAMENTO",
+    "realizado": 12923.340000000002,
+    "orcamento": 12500,
+    "saldo": -423.34000000000196
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.02.15 ADIANTAMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.02.15 ADIANTAMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.02.15 ADIANTAMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.02.15 ADIANTAMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.02.15 ADIANTAMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.02.15 ADIANTAMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.03.01 ALUGUEL",
+    "realizado": 6976.64,
+    "orcamento": 6976.64,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.03.01 ALUGUEL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.03.01 ALUGUEL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.03.01 ALUGUEL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.03.01 ALUGUEL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.03.01 ALUGUEL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.03.01 ALUGUEL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.03.02 TELEFONE / INTERNET",
+    "realizado": 442.94000000000005,
+    "orcamento": 213.05,
+    "saldo": -229.89000000000004
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.03.02 TELEFONE / INTERNET",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.03.02 TELEFONE / INTERNET",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.03.02 TELEFONE / INTERNET",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.03.02 TELEFONE / INTERNET",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.03.02 TELEFONE / INTERNET",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.03.02 TELEFONE / INTERNET",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.03.03 ENERGIA",
+    "realizado": 363.3,
+    "orcamento": 394,
+    "saldo": 30.69999999999999
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.03.03 ENERGIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.03.03 ENERGIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.03.03 ENERGIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.03.03 ENERGIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.03.03 ENERGIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.03.03 ENERGIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.03.04 ÁGUA",
+    "realizado": 201.96,
+    "orcamento": 310,
+    "saldo": 108.03999999999999
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.03.04 ÁGUA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.03.04 ÁGUA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.03.04 ÁGUA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.03.04 ÁGUA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.03.04 ÁGUA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.03.04 ÁGUA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.03.05 GÁS",
+    "realizado": 0,
+    "orcamento": 480,
+    "saldo": 480
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.03.05 GÁS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.03.05 GÁS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.03.05 GÁS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.03.05 GÁS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.03.05 GÁS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.03.05 GÁS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.03.06 SEGURANÇA",
+    "realizado": 251.6,
+    "orcamento": 251.6,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.03.06 SEGURANÇA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.03.06 SEGURANÇA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.03.06 SEGURANÇA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.03.06 SEGURANÇA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.03.06 SEGURANÇA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.03.06 SEGURANÇA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.03.07 OUTRAS DESPESAS DE INFRAESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.03.07 OUTRAS DESPESAS DE INFRAESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.03.07 OUTRAS DESPESAS DE INFRAESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.03.07 OUTRAS DESPESAS DE INFRAESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.03.07 OUTRAS DESPESAS DE INFRAESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.03.07 OUTRAS DESPESAS DE INFRAESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.03.07 OUTRAS DESPESAS DE INFRAESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.04.01 SOFTWARES , SISTEMAS E TI",
+    "realizado": 6516.079999999999,
+    "orcamento": 13714,
+    "saldo": 7197.920000000001
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.04.01 SOFTWARES , SISTEMAS E TI",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.04.01 SOFTWARES , SISTEMAS E TI",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.04.01 SOFTWARES , SISTEMAS E TI",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.04.01 SOFTWARES , SISTEMAS E TI",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.04.01 SOFTWARES , SISTEMAS E TI",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.04.01 SOFTWARES , SISTEMAS E TI",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.04.02 ASSESSORIA CONTÁBIL E RH",
+    "realizado": 3862.43,
+    "orcamento": 3700,
+    "saldo": -162.42999999999984
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.04.02 ASSESSORIA CONTÁBIL E RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.04.02 ASSESSORIA CONTÁBIL E RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.04.02 ASSESSORIA CONTÁBIL E RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.04.02 ASSESSORIA CONTÁBIL E RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.04.02 ASSESSORIA CONTÁBIL E RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.04.02 ASSESSORIA CONTÁBIL E RH",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.04.03 ASSESSORIA ADM / FINANCEIRA",
+    "realizado": 982.04,
+    "orcamento": 0,
+    "saldo": -982.04
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.04.03 ASSESSORIA ADM / FINANCEIRA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.04.03 ASSESSORIA ADM / FINANCEIRA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.04.03 ASSESSORIA ADM / FINANCEIRA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.04.03 ASSESSORIA ADM / FINANCEIRA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.04.03 ASSESSORIA ADM / FINANCEIRA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.04.03 ASSESSORIA ADM / FINANCEIRA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.04.04 ASSESSORIA JURIDICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.04.04 ASSESSORIA JURIDICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.04.04 ASSESSORIA JURIDICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.04.04 ASSESSORIA JURIDICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.04.04 ASSESSORIA JURIDICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.04.04 ASSESSORIA JURIDICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.04.04 ASSESSORIA JURIDICA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.04.05 OUTRAS TERCERIZAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.04.05 OUTRAS TERCERIZAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.04.05 OUTRAS TERCERIZAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.04.05 OUTRAS TERCERIZAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.04.05 OUTRAS TERCERIZAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.04.05 OUTRAS TERCERIZAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.04.05 OUTRAS TERCERIZAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.05.01 OUTRAS DESPESAS ADMINISTRATIVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.05.01 OUTRAS DESPESAS ADMINISTRATIVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.05.01 OUTRAS DESPESAS ADMINISTRATIVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.05.01 OUTRAS DESPESAS ADMINISTRATIVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.05.01 OUTRAS DESPESAS ADMINISTRATIVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.05.01 OUTRAS DESPESAS ADMINISTRATIVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.05.01 OUTRAS DESPESAS ADMINISTRATIVAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.05.02 MATERIAL DE ESCRITÓRIO",
+    "realizado": 154.5,
+    "orcamento": 150,
+    "saldo": -4.5
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.05.02 MATERIAL DE ESCRITÓRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.05.02 MATERIAL DE ESCRITÓRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.05.02 MATERIAL DE ESCRITÓRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.05.02 MATERIAL DE ESCRITÓRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.05.02 MATERIAL DE ESCRITÓRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.05.02 MATERIAL DE ESCRITÓRIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.05.03 MATERIAL DE LIMPEZA, COPA E COZINHA",
+    "realizado": 244.95000000000002,
+    "orcamento": 400,
+    "saldo": 155.04999999999998
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.05.03 MATERIAL DE LIMPEZA, COPA E COZINHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.05.03 MATERIAL DE LIMPEZA, COPA E COZINHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.05.03 MATERIAL DE LIMPEZA, COPA E COZINHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.05.03 MATERIAL DE LIMPEZA, COPA E COZINHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.05.03 MATERIAL DE LIMPEZA, COPA E COZINHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.05.03 MATERIAL DE LIMPEZA, COPA E COZINHA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.05.04 TFE, LICENÇAS, ENCARGOS, SINDICATOS, ETC",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.05.04 TFE, LICENÇAS, ENCARGOS, SINDICATOS, ETC",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.05.04 TFE, LICENÇAS, ENCARGOS, SINDICATOS, ETC",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.05.04 TFE, LICENÇAS, ENCARGOS, SINDICATOS, ETC",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.05.04 TFE, LICENÇAS, ENCARGOS, SINDICATOS, ETC",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.05.04 TFE, LICENÇAS, ENCARGOS, SINDICATOS, ETC",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.05.04 TFE, LICENÇAS, ENCARGOS, SINDICATOS, ETC",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.05.05 REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.05.05 REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.05.05 REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.05.05 REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.05.05 REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.05.05 REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.05.05 REPAROS E MANUTENÇÃO PREDIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.05.06 TAXAS BANCÁRIAS",
+    "realizado": 3.67,
+    "orcamento": 350,
+    "saldo": 346.33
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.05.06 TAXAS BANCÁRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.05.06 TAXAS BANCÁRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.05.06 TAXAS BANCÁRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.05.06 TAXAS BANCÁRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.05.06 TAXAS BANCÁRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.05.06 TAXAS BANCÁRIAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.05.07 DESPESAS COM VEÍCULOS",
+    "realizado": 5908.400000000001,
+    "orcamento": 5765.27,
+    "saldo": -143.1300000000001
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.05.07 DESPESAS COM VEÍCULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.05.07 DESPESAS COM VEÍCULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.05.07 DESPESAS COM VEÍCULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.05.07 DESPESAS COM VEÍCULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.05.07 DESPESAS COM VEÍCULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.05.07 DESPESAS COM VEÍCULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.06.01 OUTRAS DESPESAS DE MARKETING E COMERCIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.06.01 OUTRAS DESPESAS DE MARKETING E COMERCIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.06.01 OUTRAS DESPESAS DE MARKETING E COMERCIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.06.01 OUTRAS DESPESAS DE MARKETING E COMERCIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.06.01 OUTRAS DESPESAS DE MARKETING E COMERCIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.06.01 OUTRAS DESPESAS DE MARKETING E COMERCIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.06.01 OUTRAS DESPESAS DE MARKETING E COMERCIAL",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.06.02 AGÊNCIA DE MKT",
+    "realizado": 1480,
+    "orcamento": 1480,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.06.02 AGÊNCIA DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.06.02 AGÊNCIA DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.06.02 AGÊNCIA DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.06.02 AGÊNCIA DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.06.02 AGÊNCIA DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.06.02 AGÊNCIA DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.06.03 FREELANCERS DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.06.03 FREELANCERS DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.06.03 FREELANCERS DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.06.03 FREELANCERS DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.06.03 FREELANCERS DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.06.03 FREELANCERS DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.06.03 FREELANCERS DE MKT",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.06.04 TRÁFEGO PAGO",
+    "realizado": 11096.09,
+    "orcamento": 10000,
+    "saldo": -1096.0900000000001
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.06.04 TRÁFEGO PAGO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.06.04 TRÁFEGO PAGO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.06.04 TRÁFEGO PAGO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.06.04 TRÁFEGO PAGO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.06.04 TRÁFEGO PAGO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.06.04 TRÁFEGO PAGO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.06.05 MATERIAIS DE DIVULGAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.06.05 MATERIAIS DE DIVULGAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.06.05 MATERIAIS DE DIVULGAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.06.05 MATERIAIS DE DIVULGAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.06.05 MATERIAIS DE DIVULGAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.06.05 MATERIAIS DE DIVULGAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.06.05 MATERIAIS DE DIVULGAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.07.01 LOCAÇÃO DO ESPAÇO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.07.01 LOCAÇÃO DO ESPAÇO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.07.01 LOCAÇÃO DO ESPAÇO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.07.01 LOCAÇÃO DO ESPAÇO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.07.01 LOCAÇÃO DO ESPAÇO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.07.01 LOCAÇÃO DO ESPAÇO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.07.01 LOCAÇÃO DO ESPAÇO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.07.02 MÃO DE OBRA TEMPORÁRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.07.02 MÃO DE OBRA TEMPORÁRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.07.02 MÃO DE OBRA TEMPORÁRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.07.02 MÃO DE OBRA TEMPORÁRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.07.02 MÃO DE OBRA TEMPORÁRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.07.02 MÃO DE OBRA TEMPORÁRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.07.02 MÃO DE OBRA TEMPORÁRIA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.07.03 REFEIÇÕES E ENTRETENIMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.07.03 REFEIÇÕES E ENTRETENIMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.07.03 REFEIÇÕES E ENTRETENIMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.07.03 REFEIÇÕES E ENTRETENIMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.07.03 REFEIÇÕES E ENTRETENIMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.07.03 REFEIÇÕES E ENTRETENIMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.07.03 REFEIÇÕES E ENTRETENIMENTO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.07.04 GASTOS COM ESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.07.04 GASTOS COM ESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.07.04 GASTOS COM ESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.07.04 GASTOS COM ESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.07.04 GASTOS COM ESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.07.04 GASTOS COM ESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.07.04 GASTOS COM ESTRUTURA",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.07.05 LOCAÇÃO DE VEICULOS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.07.05 LOCAÇÃO DE VEICULOS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.07.05 LOCAÇÃO DE VEICULOS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.07.05 LOCAÇÃO DE VEICULOS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.07.05 LOCAÇÃO DE VEICULOS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.07.05 LOCAÇÃO DE VEICULOS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.07.05 LOCAÇÃO DE VEICULOS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "04.07.06 OUTRAS DESPESAS DE FEIRAS E EVENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "04.07.06 OUTRAS DESPESAS DE FEIRAS E EVENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "04.07.06 OUTRAS DESPESAS DE FEIRAS E EVENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "04.07.06 OUTRAS DESPESAS DE FEIRAS E EVENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "04.07.06 OUTRAS DESPESAS DE FEIRAS E EVENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "04.07.06 OUTRAS DESPESAS DE FEIRAS E EVENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "04.07.06 OUTRAS DESPESAS DE FEIRAS E EVENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "05.01.01 AQUISICAÇÃO E REFORMA DE IMOVEIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "05.01.01 AQUISICAÇÃO E REFORMA DE IMOVEIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "05.01.01 AQUISICAÇÃO E REFORMA DE IMOVEIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "05.01.01 AQUISICAÇÃO E REFORMA DE IMOVEIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "05.01.01 AQUISICAÇÃO E REFORMA DE IMOVEIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "05.01.01 AQUISICAÇÃO E REFORMA DE IMOVEIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "05.01.01 AQUISICAÇÃO E REFORMA DE IMOVEIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "05.01.02 AQUISIÇÃO DE VEICULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "05.01.02 AQUISIÇÃO DE VEICULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "05.01.02 AQUISIÇÃO DE VEICULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "05.01.02 AQUISIÇÃO DE VEICULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "05.01.02 AQUISIÇÃO DE VEICULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "05.01.02 AQUISIÇÃO DE VEICULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "05.01.02 AQUISIÇÃO DE VEICULOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "05.01.03 AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 785.8199999999999,
+    "orcamento": 1000,
+    "saldo": 214.18000000000006
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "05.01.03 AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "05.01.03 AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "05.01.03 AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "05.01.03 AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "05.01.03 AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "05.01.03 AQUISIÇÃO DE MOVEIS E EQUIPAMENTOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "05.01.04 AQUISIÇÃO DE SOFTWARE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "05.01.04 AQUISIÇÃO DE SOFTWARE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "05.01.04 AQUISIÇÃO DE SOFTWARE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "05.01.04 AQUISIÇÃO DE SOFTWARE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "05.01.04 AQUISIÇÃO DE SOFTWARE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "05.01.04 AQUISIÇÃO DE SOFTWARE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "05.01.04 AQUISIÇÃO DE SOFTWARE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "05.01.05 VENDA DE ATIVOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "05.01.05 VENDA DE ATIVOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "05.01.05 VENDA DE ATIVOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "05.01.05 VENDA DE ATIVOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "05.01.05 VENDA DE ATIVOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "05.01.05 VENDA DE ATIVOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "05.01.05 VENDA DE ATIVOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "06.02.01 TRANSFERENCIA ENTRE CONTAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "06.02.01 TRANSFERENCIA ENTRE CONTAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "06.02.01 TRANSFERENCIA ENTRE CONTAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "06.02.01 TRANSFERENCIA ENTRE CONTAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "06.02.01 TRANSFERENCIA ENTRE CONTAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "06.02.01 TRANSFERENCIA ENTRE CONTAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "06.02.01 TRANSFERENCIA ENTRE CONTAS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "06.02.02 APLICAÇÕES E RESGATE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "06.02.02 APLICAÇÕES E RESGATE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "06.02.02 APLICAÇÕES E RESGATE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "06.02.02 APLICAÇÕES E RESGATE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "06.02.02 APLICAÇÕES E RESGATE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "06.02.02 APLICAÇÕES E RESGATE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "06.02.02 APLICAÇÕES E RESGATE",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "07.01.01 AUSTES DE CONCILIAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "07.01.01 AUSTES DE CONCILIAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "07.01.01 AUSTES DE CONCILIAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "07.01.01 AUSTES DE CONCILIAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "07.01.01 AUSTES DE CONCILIAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "07.01.01 AUSTES DE CONCILIAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "07.01.01 AUSTES DE CONCILIAÇÃO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "08.01.01 APORTES DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "08.01.01 APORTES DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "08.01.01 APORTES DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "08.01.01 APORTES DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "08.01.01 APORTES DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "08.01.01 APORTES DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "08.01.01 APORTES DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "08.01.02 RETIRADAS DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "08.01.02 RETIRADAS DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "08.01.02 RETIRADAS DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "08.01.02 RETIRADAS DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "08.01.02 RETIRADAS DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "08.01.02 RETIRADAS DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "08.01.02 RETIRADAS DO SÓCIO",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "09.01.01 SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 519.35,
+    "orcamento": 658,
+    "saldo": 138.64999999999998
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "09.01.01 SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "09.01.01 SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "09.01.01 SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "09.01.01 SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "09.01.01 SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "09.01.01 SAÍDAS NÃO OPERACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "09.01.02 ENTRADAS NÃO OPRACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "09.01.02 ENTRADAS NÃO OPRACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "09.01.02 ENTRADAS NÃO OPRACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "09.01.02 ENTRADAS NÃO OPRACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "09.01.02 ENTRADAS NÃO OPRACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "09.01.02 ENTRADAS NÃO OPRACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "09.01.02 ENTRADAS NÃO OPRACIONAIS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "10.01.01 CAPTAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "10.01.01 CAPTAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "10.01.01 CAPTAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "10.01.01 CAPTAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "10.01.01 CAPTAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "10.01.01 CAPTAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "10.01.01 CAPTAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "10.01.02 AMORTIZAÇÃO DE EMPRESTIMOS",
+    "realizado": 16384.17,
+    "orcamento": 15647.92,
+    "saldo": -736.2499999999982
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "10.01.02 AMORTIZAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "10.01.02 AMORTIZAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "10.01.02 AMORTIZAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "10.01.02 AMORTIZAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "10.01.02 AMORTIZAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "10.01.02 AMORTIZAÇÃO DE EMPRESTIMOS",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "10.01.03 RENDIMENTOS DE APLICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-07",
+    "departamento": "",
+    "conta": "10.01.03 RENDIMENTOS DE APLICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-08",
+    "departamento": "",
+    "conta": "10.01.03 RENDIMENTOS DE APLICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-09",
+    "departamento": "",
+    "conta": "10.01.03 RENDIMENTOS DE APLICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-10",
+    "departamento": "",
+    "conta": "10.01.03 RENDIMENTOS DE APLICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-11",
+    "departamento": "",
+    "conta": "10.01.03 RENDIMENTOS DE APLICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-12",
+    "departamento": "",
+    "conta": "10.01.03 RENDIMENTOS DE APLICAÇÕES",
+    "realizado": 0,
+    "orcamento": 0,
+    "saldo": 0
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "Taxas pagas",
+    "realizado": 524.52,
+    "orcamento": 0,
+    "saldo": -524.52
+  },
+  {
+    "mes": "2026-06",
+    "departamento": "",
+    "conta": "EMPRÉSTIMO FUNCIONÁRIOS",
+    "realizado": 9749.48,
+    "orcamento": 0,
+    "saldo": -9749.48
+  }
+]
