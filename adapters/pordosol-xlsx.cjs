@@ -155,6 +155,44 @@ function parseGSheetOrcamento(csvText) {
   return rows;
 }
 
+// ---------- Reclassificações retroativas ----------
+// Correções feitas no sistema financeiro a partir de abr/2026, retroagidas aqui
+// para meses anteriores que ainda estavam com a categoria antiga.
+// Formato: { cliente (substring match), catErrada, catCorreta, mesAte (inclusive) }
+const RECLASS_RULES = [
+  { cliente: 'FACEBOOK',           catErrada: '04.04.01 SOFTWARES , SISTEMAS E TI', catCorreta: '04.06.04 TRÁFEGO PAGO',               mesAte: '2026-03' },
+  { cliente: 'FACEBK',             catErrada: '04.04.01 SOFTWARES , SISTEMAS E TI', catCorreta: '04.06.04 TRÁFEGO PAGO',               mesAte: '2026-03' },
+  { cliente: 'Google Ads',         catErrada: '04.04.01 SOFTWARES , SISTEMAS E TI', catCorreta: '04.06.04 TRÁFEGO PAGO',               mesAte: '2026-03' },
+  { cliente: 'GOOGLE ADS',         catErrada: '04.04.01 SOFTWARES , SISTEMAS E TI', catCorreta: '04.06.04 TRÁFEGO PAGO',               mesAte: '2026-03' },
+  { cliente: 'Localiza',           catErrada: '04.01.01 PRO-LABORE',               catCorreta: '04.05.07 DESPESAS COM VEÍCULOS',       mesAte: '2026-03' },
+  { cliente: 'LOCALIZA',           catErrada: '04.01.01 PRO-LABORE',               catCorreta: '04.05.07 DESPESAS COM VEÍCULOS',       mesAte: '2026-03' },
+  { cliente: 'Meoo',               catErrada: '04.01.01 PRO-LABORE',               catCorreta: '04.05.07 DESPESAS COM VEÍCULOS',       mesAte: '2026-03' },
+  { cliente: 'INSTITUTO MENTE',    catErrada: '03.01.07 PRODUTOS PARA REVENDA',    catCorreta: '03.01.06 FLORAL DE ERVAS',             mesAte: '2026-05' },
+  { cliente: 'Instituto Mente',    catErrada: '03.01.07 PRODUTOS PARA REVENDA',    catCorreta: '03.01.06 FLORAL DE ERVAS',             mesAte: '2026-05' },
+  { cliente: 'Mayara Caroline',     catErrada: '04.07.03 REFEIÇÕES E ENTRETENIMENTO', catCorreta: '04.02.04 VALE ALIMENTAÇÃO E CESTA BÁSICA', mesAte: '2026-03' },
+  { cliente: 'PARAISO COMERCIO',   catErrada: '01.02.02 OUTRAS RECEITAS',          catCorreta: '02.03.01 DEVOLUÇÕES',                  mesAte: '2026-02' },
+];
+
+function applyReclass(movs) {
+  let count = 0;
+  for (const m of movs) {
+    const dt = m.data_pagamento || m.data_emissao;
+    if (!dt) continue;
+    const mes = dt.slice(0, 7);
+    const cli = m.cliente || '';
+    const cat = m.categoria || '';
+    for (const rule of RECLASS_RULES) {
+      if (mes <= rule.mesAte && cat === rule.catErrada && cli.toUpperCase().includes(rule.cliente.toUpperCase())) {
+        m.categoria = rule.catCorreta;
+        count++;
+        break;
+      }
+    }
+  }
+  if (count > 0) console.log(`  reclassificações retroativas aplicadas: ${count}`);
+  return movs;
+}
+
 let idSeq = 1;
 
 /**
@@ -309,8 +347,8 @@ module.exports = {
     const excluded = (cxMovs.length - cxFiltered.length) + (recMovs.length - recFiltered.length) + (despMovs.length - despFiltered.length);
     if (excluded > 0) console.log(`  excluídas ${excluded} transações de transferência/aplicação`);
 
-    // Merge all
-    const allMovs = [...cxFiltered, ...recFiltered, ...despFiltered];
+    // Merge all + reclassificações retroativas
+    const allMovs = applyReclass([...cxFiltered, ...recFiltered, ...despFiltered]);
     fs.writeFileSync(path.join(dataDir, 'movimentos.json'), JSON.stringify(allMovs, null, 2));
 
     // Minimal empresa/categorias/clientes
