@@ -658,7 +658,7 @@ const REFRESH_DATE = "${new Date().toLocaleDateString('pt-BR', { day: '2-digit',
 // e EXTRATO a partir de uma lista filtrada de transacoes. Chamada pelas Pages
 // quando drilldown ou statusFilter estao ativos.
 function aggregateTx(txList, year) {
-  year = year || REF_YEAR;
+  if (year === undefined) year = REF_YEAR;
   const months = ${JSON.stringify(MONTHS_FULL)};
   const MONTH_DATA = months.map(m => ({ m, receita: 0, despesa: 0 }));
   const RECEITA_DIA = Array(31).fill(0);
@@ -673,7 +673,7 @@ function aggregateTx(txList, year) {
     const [kind, mes, dia, categoria, cliente, valor, realizado, fornecedor, cc] = row;
     if (!mes) continue;
     const ymonth = mes.slice(0,4);
-    if (Number(ymonth) !== year) continue;
+    if (year && Number(ymonth) !== year) continue;
     const mIdx = parseInt(mes.slice(5,7), 10) - 1;
     if (mIdx < 0 || mIdx > 11) continue;
     if (kind === 'r') {
@@ -860,7 +860,10 @@ window.getBit = function (statusFilter, drilldown, year, month, regime, extraFil
 // com KPIs/charts/extrato recalculados em ~10ms (17k rows).
 window.recomputeBit = function (statusFilter, drilldown, year, regime, extraFilters) {
   const filtered = filterTx(ALL_TX, statusFilter, drilldown, regime || 'caixa', extraFilters);
-  const agg = aggregateTx(filtered, year || REF_YEAR);
+  // Quando há filtro de data (dateFrom/dateTo), os dados já vêm filtrados por período —
+  // não filtrar por ano no aggregateTx para não descartar dados do range selecionado.
+  const hasDateFilter = extraFilters && (extraFilters.dateFrom || extraFilters.dateTo);
+  const agg = aggregateTx(filtered, hasDateFilter ? null : (year || REF_YEAR));
   // Mescla com BIT base pra preservar META, helpers (fmt, fmtK), MONTHS etc.
   const base = window.BIT || {};
   return Object.assign({}, base, agg, {
