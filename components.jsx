@@ -333,6 +333,7 @@ const Header = ({ page, onToggleSidebar, statusFilter, setStatusFilter, year, se
           {allCats.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
       </div>
+      {setYear && <YearSelect value={year} onChange={setYear} available={window.AVAILABLE_YEARS} />}
       {setStatusFilter && <StatusFilterSeg value={statusFilter} onChange={setStatusFilter} />}
       <BiExportButton statusFilter={statusFilter} year={year} month={month} filters={filters} />
     </header>
