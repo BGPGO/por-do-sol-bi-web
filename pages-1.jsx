@@ -205,10 +205,10 @@ const PageOverview = ({ filters, setFilters, onOpenFilters, statusFilter, drilld
     var txs = (window.ALL_TX || []).filter(r => r[9] === rg);
     if (sf === "realizado") txs = txs.filter(r => r[6] === 1);
     else if (sf === "a_pagar_receber") txs = txs.filter(r => r[6] === 0);
-    txs = txs.filter(r => r[1] && r[1].startsWith(String(year || refYear)));
+    if (!(filters && (filters.dateFrom || filters.dateTo))) txs = txs.filter(r => r[1] && r[1].startsWith(String(year || refYear)));
     // Apply extra filters (dateFrom, dateTo, categoria, dia)
     if (filters && window.filterTx) txs = window.filterTx(window.ALL_TX || [], sf, drilldown, rg, filters);
-    if (!drilldown) txs = txs.filter(r => r[1] && r[1].startsWith(String(year || refYear)));
+    if (!drilldown && !(filters && (filters.dateFrom || filters.dateTo))) txs = txs.filter(r => r[1] && r[1].startsWith(String(year || refYear)));
 
     var impostos = 0, capex = 0, juros = 0;
     for (var i = 0; i < txs.length; i++) {
@@ -414,7 +414,7 @@ const PageReceita = ({ filters, setFilters, onOpenFilters, statusFilter, drilldo
     var rg = (filters && filters.regime === "competencia") ? "k" : "c";
     var seen = new Set();
     var txs = window.filterTx ? window.filterTx(window.ALL_TX || [], statusFilter || "realizado", drilldown, rg, filters) : [];
-    txs = txs.filter(r => r[1] && r[1].startsWith(String(year || refYear)));
+    if (!(filters && (filters.dateFrom || filters.dateTo))) txs = txs.filter(r => r[1] && r[1].startsWith(String(year || refYear)));
     for (var i = 0; i < txs.length; i++) { if (txs[i][0] === "r" && txs[i][4]) seen.add(txs[i][4]); }
     return seen.size;
   }, [filters, statusFilter, drilldown, year, refYear]);
@@ -528,7 +528,7 @@ const PageDespesa = ({ filters, setFilters, onOpenFilters, statusFilter, drilldo
     var rg = (filters && filters.regime === "competencia") ? "k" : "c";
     var seen = new Set();
     var txs = window.filterTx ? window.filterTx(window.ALL_TX || [], statusFilter || "realizado", drilldown, rg, filters) : [];
-    txs = txs.filter(r => r[1] && r[1].startsWith(String(year || refYear)));
+    if (!(filters && (filters.dateFrom || filters.dateTo))) txs = txs.filter(r => r[1] && r[1].startsWith(String(year || refYear)));
     for (var i = 0; i < txs.length; i++) { if (txs[i][0] === "d" && txs[i][7]) seen.add(txs[i][7]); }
     return seen.size;
   }, [filters, statusFilter, drilldown, year, refYear]);

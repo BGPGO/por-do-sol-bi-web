@@ -19,7 +19,7 @@ const PageFluxo = ({ filters, setFilters, onOpenFilters, statusFilter, drilldown
     const sf = statusFilter || "realizado";
     // Use filterTx with extraFilters (dateFrom, dateTo, categoria, dia)
     var txs = window.filterTx ? window.filterTx(allTx, sf, null, regime, filters) : allTx;
-    txs = txs.filter(r => r[1] && r[1].startsWith(String(year || refYear)));
+    if (!(filters && (filters.dateFrom || filters.dateTo))) txs = txs.filter(r => r[1] && r[1].startsWith(String(year || refYear)));
 
     const result = {
       receita: { total: Array(12).fill(0), cats: new Map() },
